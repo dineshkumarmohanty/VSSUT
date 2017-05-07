@@ -1,0 +1,72 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+    </android.support.design.widget.AppBarLayout>
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="?attr/actionBarSize"
+            android:orientation="vertical"
+            android:weightSum="1"
+            android:background="@color/colorPrimaryDark"
+            android:numColumns="auto_fit"
+            android:columnCount="24"
+            android:rowCount="5"
+            android:textAlignment="center"
+            android:padding="5dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="EXECUTIVE COMMITTEE"
+                android:textColor="#FFFFFF"
+                android:textSize="35dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="★ President :-\n\nProf. E. Saibaba Reddy	Vice Chancellor, VSSUT Burla\n\n★ Vice President :-\n\nEr. Ashesh Ku. Padhy 1992, Electrical Engg\n\n★ Secretary :-\n\n Prof. Sujaya Kumar Sathua	2010, Information Technology\n\n★ Joint Secretary :-\n\nEr. Jyoti Ranjan Behera 	1989, Civil Engg.\n\n★ Treasurer :-\n\nDr. Rakesh Mohanty	 1998, Comp. Sc and Engg.\n\n★ Executive Body Members :-\n\nEr. Jadunandan Panda ,1967, Civil Engg\n\nEr. Surinder Singh Kabli , 1966, Mech. Engg.\n\nEr. K.K. Gupta , 1976, Civil Engg.\n\nEr. B.K. Das,1976, Civil Engg.\n\nProf. Pradip Ku. Pradhan ,1985, Civil Engg.\n\n
+Dr. Prasanta Kumar Pradhan ,2001, Mechanical Engg. Prof.-In-Charge, Alumni House\n\n"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:background="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</android.support.design.widget.CoordinatorLayout>
+

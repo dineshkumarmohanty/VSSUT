@@ -1,0 +1,150 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+    </android.support.design.widget.AppBarLayout>
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="?attr/actionBarSize"
+            android:orientation="vertical"
+            android:weightSum="1"
+            android:background="@color/colorPrimaryDark"
+            android:numColumns="auto_fit"
+            android:columnCount="24"
+            android:rowCount="5"
+            android:textAlignment="center"
+            android:padding="5dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="MCA"
+                android:textColor="#FFFFFF"
+                android:textSize="35dp"/>
+            <Button
+                android:textAllCaps="false"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonborder2"
+                android:drawableLeft="@drawable/mca"
+                android:text="Coordinator MCA \nName:   Dr.Sasmita Kumari Padhy\nEmail:  head_mca@vssut.ac.in\nPhone: 9437102250"
+                android:textColor="#FFFFFF"
+                android:padding="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="About:\n\nThe Department of MCA is one of the oldest departments at VSSUT, Burla. It currently offers Postgraduate Degree in Computer Application (MCA). In the growing digital phenomenon all over the world, the MCA program aims at imparting comprehensive knowledge with equal emphasis on theory and practice. It prepares students to take up positions as system analysts, systems designers, Programmers and managers in any field related to information technology. During last 2 decades, this branch produced highly skilled, technically empowered, self motivated professionals (around 600) to serve the humanity both nationally and internationally at par excellence.\nThe MCA course was started in the University (formerly, UCE) in 1993 with due approval of AICTE, Sambalpur University and Govt. of Orissa, Department of Industries, under self-financed basis. The regular faculty members and lecturers from Mathematics and Humanities departments impart teaching to the students. It is a six semester course leading to a master degree in computer application (MCA). Every year 30 regular students are taken through the Joint Entrance Examination (MCA-JEE), Orissa including 10% Lateral Entry MCA Students starting from 2013-14 session.\n\nMission:\n\n
+                The Department of MCA at Veer Surendra Sai University of Technology, Burla aims to inculcate value-based, socially committed professionalism in the students to the cause of overall development of students and society using a compound metric comprising of:\n
+
+ Breadth: Knowledge of wide-ranging Computer Science concepts, tools, and mathematical techniques or models, and the capability of applying them to analyze and design complex systems.\n
+• Depth: In-Depth understanding of fundamental theoretical and practical aspects of Computer Science, and the ability to adapt to the ever-changing and challenging global work environment of the 21st century.\n
+• Reasoning: Capability of solving a wide variety of scientific and analytical problems by applying principles of computational paradigms.\n
+• Teamwork: Habits of working effectively and professionally on diverse project ideas and teams.\n
+• Clarity: Ability to communicate technical information clearly and effectively, both speaking and in writing.\n
+• Integrity: Understanding how to approach social effects of computing ethically and responsibly, and being committed to doing so.\n
+• Learning: Interest in life-long learning, to adapt and shape an technically evolving world.\n
+• Openness:: Ability to participate in interdisciplinary collaborations and apply computational methods in new and unfamiliar application domains.\n\n
+Vision:\n\n
+The Department of MCA has a Multi-objective mission:\n
+
+• To enable students acquire good academic and computational skills and devotion to scientific and technical knowledge.\n
+• To inculcate the values of perseverance, sincerity and honesty.\n
+• empower them to become socially and economically responsible citizens of this country.\n
+\n\nGoals:\n\n
+This department envisages to provide an academically strong platform for the aspirants those who not only want
+to make a good metier but also to leave an enduring impression in the field of Computer Science. The educational program in
+Computer Application calls for an attitude for research, exploration and evaluation to authenticate the work of development of software’s.."
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                >
+                <Button
+                    android:id="@+id/btnMCA1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimaryDark"
+                    android:drawableTop="@drawable/faculties"
+                    android:layout_gravity="center"
+                    android:textColor="#FFFFFF"
+                    android:padding="10dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"
+                    android:text="Faculties"
+                    />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:id="@+id/btnMCA2"
+                    android:background="@color/colorPrimaryDark"
+                    android:textColor="#FFFFFF"
+                    android:padding="10dp"
+                    android:drawableTop="@drawable/question"
+                    android:text="Question"
+
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+                <Button
+                    android:id="@+id/btnMCA3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimaryDark"
+                    android:drawableTop="@drawable/note"
+                    android:text="Notes"
+                    android:layout_gravity="right"
+                    android:textColor="#FFFFFF"
+                    android:padding="10dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true" />
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:background="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</android.support.design.widget.CoordinatorLayout>
+
+

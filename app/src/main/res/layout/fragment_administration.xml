@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="info.dinesh.mohanty.fragments.OneFragment"
+    android:background="@color/colorPrimaryDark">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <Button
+            android:textAllCaps="false"
+            android:background="@drawable/button_border"
+            android:textColor="#FFFFFF"
+            android:textSize="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/pnk"
+            android:text="PIC, Training and Placement:\nName: Prof. Prasanta Nanda\nPhone:09861263248"/>
+            <Button
+                android:textAllCaps="false"
+                android:background="@drawable/button_border"
+                android:textColor="#FFFFFF"
+                android:textSize="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ksa"
+                android:text="Controller of Examinations:\nName: Dr. Kabiraj Sethi\nPhone:0663-2430096"/>
+            <Button
+                android:textAllCaps="false"
+                android:background="@drawable/button_border"
+                android:textColor="#FFFFFF"
+                android:textSize="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/pkp"
+                android:text="Registrar I/c:\nName:Prof. Pradip Kumar Pradhan\nPhone: +91-9937305002"/>
+            <Button
+                android:textAllCaps="false"
+                android:background="@drawable/button_border"
+                android:textColor="#FFFFFF"
+                android:textSize="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/rm"
+                android:text="PIC University Examinations:\nName: Dr. Rakesh Mohanty\nPhone:----"/>
+
+            <Button
+                android:textAllCaps="false"
+                android:background="@drawable/button_border"
+                android:textColor="#FFFFFF"
+                android:textSize="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/sp"
+                android:text="Coordinator , TEQIP:\nName:Prof. Siddharth Panda\nPhone:	+91-9438251162"/>
+
+            <Button
+                android:textAllCaps="false"
+                android:background="@drawable/button_border"
+                android:textColor="#FFFFFF"
+                android:textSize="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/sda"
+                android:text="PIO, RTI Cell:\nName: Dr. Satyabrata Das\nPhone:	+91 9437177717"/>
+            <Button
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_border"
+                android:drawableLeft="@drawable/hbb"
+                android:text="PIC, Central Library:\nName: Dr. Himanshu Sekhar Behera\nPhone:	+919437083891"
+               />
+
+            <Button
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
+

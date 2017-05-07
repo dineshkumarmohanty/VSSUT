@@ -1,0 +1,129 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="info.dinesh.mohanty.fragments.OneFragment"
+    android:background="@color/colorPrimaryDark">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vice-Chancellor , VSSUT"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/vcc"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Prof. E. Saibaba Reddy"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#FFFFFF"
+                android:padding="5dp"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Academic Qualification:"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#FFFFFF"
+                android:padding="5dp"
+                android:lineSpacingExtra="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Ph.D. University of Nottingham, UK\n2. Post Doc. University of Birmingham, UK.\n3.Post Doc. St. Mary’s University, Canada\n4. M.E.(Hons.) University of Roorkee\n5. B.Tech. (Civil Engg) J.N.T. University "
+                android:textSize="15dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#FFFFFF"
+                android:padding="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Profile:"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#FFFFFF"
+                android:padding="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Professor Eadala Saibaba Reddy, ME.(Hons) Roorkee, PhD (Nottingham, UK), Post Doc. (Halifax, Canada), Post Doc (Birmingham, UK) an eminent Civil Engineer from Andhra Pradesh India. He has an outstanding academic record with University 5th Ranks at B.Tech. and 3rd Rank at ME studies. Dr. Reddy is a dedicated Teacher, active Researcher, Consultant and eminent Administrator."
+                android:textSize="15dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#FFFFFF"
+                android:padding="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contact:"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#FFFFFF"
+                android:padding="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dr. E. Saibaba Reddy\nVice Chancellor\nVeer Surendra Sai University of Technology (VSSUT)\nE.Mail: vc@vssut.ac.in,  esreddy1101@gmail.com\n Phone:(0663)2430211 "
+                android:textSize="15dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#FFFFFF"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="415dp"
+                android:layout_height="match_parent"
+
+                android:textSize="20dp"
+                android:textStyle="bold"
+
+                android:textColor="#FFFFFF"
+                android:padding="5dp"/>
+            <TextView
+                android:layout_width="415dp"
+                android:layout_height="match_parent"
+
+                android:textSize="20dp"
+                android:textStyle="bold"
+
+                android:textColor="#FFFFFF"
+                android:padding="5dp"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

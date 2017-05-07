@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="info.dinesh.mohanty.activity.Skill.Higher">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#FF0000"
+            />
+    </android.support.design.widget.AppBarLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="?attr/actionBarSize"
+            android:orientation="vertical"
+            android:weightSum="1"
+            android:background="@color/colorPrimaryDark"
+            android:numColumns="auto_fit"
+            android:columnCount="24"
+            android:rowCount="5"
+            android:textAlignment="center">
+
+            <Button
+                android:id="@+id/btnRobotics"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="EDX"
+                android:textSize="25sp"
+
+                android:textColor="#000000"
+                />
+
+
+            <Button
+                android:id="@+id/btnDramatics"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="COURSERA"
+                android:textSize="25sp"
+
+
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/btnMusic"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="MUSIC"
+                android:textSize="15dp"
+
+
+                android:textColor="#000000"
+                />
+
+            <Button
+                android:id="@+id/btnDance"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="DANCE"
+                android:textSize="15dp"
+
+
+                android:textColor="#000000" />
+
+
+            <Button
+                android:id="@+id/btnAutomobile"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="AUTOMOBILE"
+                android:textSize="15dp"
+
+                android:textColor="#000000"
+
+                />
+
+            <Button
+                android:id="@+id/btnLiterary"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="LITERARY"
+                android:textSize="15dp"
+
+
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/btnQuiz"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="QUIZ"
+                android:textSize="15dp"
+
+
+                android:textColor="#000000"
+                />
+            <Button
+                android:id="@+id/btnSanskarKendra"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Sanskar Kendra"
+                android:textSize="15dp"
+
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/btnArt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="ART AND PHOTOGRAPHY "
+                android:textSize="15dp"
+
+
+                android:textColor="#000000"
+                />
+            <Button
+                android:id="@+id/btnCoding"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="CODING"
+                android:textSize="15dp"
+
+
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/btnAthletic"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="ATHLETIC"
+                android:textSize="15dp"
+
+
+                android:textColor="#000000"
+                />
+            <Button
+                android:id="@+id/btnEDP"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="EDP SOCIETY"
+                android:textSize="15dp"
+
+
+                android:textColor="#000000"/>
+            <Button
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:textSize="15dp"
+
+
+                android:textColor="#000000"/>
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

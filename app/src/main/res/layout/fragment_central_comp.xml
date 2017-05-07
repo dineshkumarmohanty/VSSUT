@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="info.dinesh.mohanty.activity.FEST.Samave"
+    android:background="@color/colorPrimaryDark">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Central Computer"
+                android:layout_gravity="center"
+                android:textSize="30dp"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="10dp"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/buttonborder2"
+                android:text="Timing:\n\nThe facilities remain open from 8.00 am to 8.00p.m. on all working days of the University."
+                android:textColor="@color/textColorPrimary"
+                android:padding="10dp"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="About:\n\nThe Central Computer Facility of the University was established in the University in the year 1987; with financial assistance from MHRD, Govt. of India as a Zero level facility. During the year 1992-93, a HCL-HP Meteor - III UNIX server with a number of nodes and PCs were installed. The facilities have been upgraded and expanded from time to time. In the year 1998, an advanced Pentium based SCO-Unix server with 15 terminals was added and a good number of application softwares have been installed for the of the University.\n\nThe Central Computer Facility has been given a face-lift through a MODROBS project of All India Council for Technical Education, New Delhi. Another P-III Windows. NT based server, a large number of P-III and Celeron PCs, other Terminals have been added during 1999-2000 through the project grant.\n\nLooking at the present day's needs, softwares like JAVA, ORACLE, Visual Studio etc. have been kept open for the benefit of the students. Facilities also exist for using various languages like Basic, fortran - 77, pascal, C and C++ and Foxpro. in various operating environments like Windows, Dos, Unix and Linux.\n\nInternet Facility:\n\nInternet with e-mail and browser facility have been provided to the students with assistance from All India Council for Technical Education, New Delhi. Presently, this facility cater the need of students as well as faculty through a 64kbps broadband VSAT connectivity and inhouse linux-based networking. It helps to students for various on-line tests for jobs, searching the research paper for their project works/thesis etc. Proposals have already been made for entire University and campus networking through fibre-optics cables. The facility remains open from 8.00 AM to 8.00 PM on all working days in the University. "
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
+

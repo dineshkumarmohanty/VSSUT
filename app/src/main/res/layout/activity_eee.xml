@@ -1,0 +1,134 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+    </android.support.design.widget.AppBarLayout>
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="?attr/actionBarSize"
+            android:orientation="vertical"
+            android:weightSum="1"
+            android:background="@color/colorPrimaryDark"
+            android:numColumns="auto_fit"
+            android:columnCount="24"
+            android:rowCount="5"
+            android:textAlignment="center"
+            android:padding="5dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Electrical and EEE"
+                android:textColor="#FFFFFF"
+                android:textSize="35dp"/>
+            <Button
+                android:textAllCaps="false"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonborder2"
+                android:drawableLeft="@drawable/electrical"
+                android:text="HOD Electrical and EEE\nName: Dr. Rabindra Kumar Sahu\nEmail :rksahu123@gmail.com\nPhone: 91 9439702316"
+                android:textColor="#FFFFFF"
+                android:padding="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="About:\n\nThe Department of Electrical Engineering and EEE of VSSUT is one among the first branches to be instituted in 1956. While retaining its strength in traditional areas of engineering, the department grew with time, reflecting the needs of a changing society and established new areas of teaching and research in electrical engineering. The department is AICTE acrreditated.The syllabi of the department has tremendously augmented with many advanced courses with focus on the following areas: Network analysis and synthesis, machine analysis and design; control engineering; Basics of analog and digital electronics circuits; microprocessor and micro controllers; procedural nd object-oriented languages; and in-depth coverage of power systems.State of the art infrastructure has been established in order to promote a congenial academic environment to impart quality education.Sincere efforts have been made to implement the decentralized functioning in its letter and spirit. Student sub-committees have been set up who work along with the Lab. In-Charge, and staff attached to the laboratory towards up-keep and effective utilization of the assigned laboratory. Through devolution of powers, the administration in the department has been effectively made transparent.\n\nMission:\n\nTo produce Electrical Engineers with dynamic well rounded personalities adaptable to ever increasing demands of emerging technologies involving analytical and practical skills.\n\nVison:\n\n• To develop the department as a renowned academic center of learning in the discipline of electrical engineering. • To establish research and development center of repute so as to encourage active participation with industry by staff and students to take on practical problems of industry and to provide feasible solutions.• To establish tie-ups with institutions of national and international repute and to foster building up of a wide knowledge base to keep in tune with ever increasing demands of technologies.•  simple, appropriate technologies, which will be instrumental in the up-liftment of rural society.\n\nLong Range Goals\n\n
+•	Up gradation of existing laboratories so as to enable the students and faculty to study and provide feasible solutions to technical problems of the industry.\n
+•	To establish research and development center.\n
+•	To have tie ups with renowned institutions.\n
+• To establish a center for dissemination of technical knowledge to rural areas by taking up projects in appropriate technology.\n "
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                >
+                <Button
+                    android:id="@+id/btnEEE1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimaryDark"
+                    android:drawableTop="@drawable/faculties"
+                    android:layout_gravity="center"
+                    android:textColor="#FFFFFF"
+                    android:padding="10dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"
+                    android:text="Faculties"
+                    />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:id="@+id/btnEEE2"
+                    android:background="@color/colorPrimaryDark"
+                    android:textColor="#FFFFFF"
+                    android:padding="10dp"
+                    android:drawableTop="@drawable/question"
+                    android:text="Question"
+
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+                <Button
+                    android:id="@+id/btnEEE3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimaryDark"
+                    android:drawableTop="@drawable/note"
+                    android:text="Notes"
+                    android:layout_gravity="right"
+                    android:textColor="#FFFFFF"
+                    android:padding="10dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true" />
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:background="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</android.support.design.widget.CoordinatorLayout>
+
+

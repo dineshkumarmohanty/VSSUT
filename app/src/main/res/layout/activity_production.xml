@@ -1,0 +1,136 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+    </android.support.design.widget.AppBarLayout>
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="?attr/actionBarSize"
+            android:orientation="vertical"
+            android:weightSum="1"
+            android:background="@color/colorPrimaryDark"
+            android:numColumns="auto_fit"
+            android:columnCount="24"
+            android:rowCount="5"
+            android:textAlignment="center"
+            android:padding="5dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Production"
+                android:textColor="#FFFFFF"
+                android:textSize="35dp"/>
+            <Button
+                android:textAllCaps="false"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonborder2"
+                android:drawableLeft="@drawable/production"
+                android:text="HOD Production Engineering \nName:  Dr. Debadutta Mishra\nEmail:  head_prod@vssut.ac.in\nPhone: 0663-2430549 "
+                android:textColor="#FFFFFF"
+                android:padding="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="About:\n\nManufacturing or Production, in its broadest sense, is the process of converting raw materials into useful products. It encompasses the design and manufacturing of goods, using various production methods and techniques. Manufacturing is the backbone of any industrialized nation and its level of manufacturing activity is directly related to the economic health. Advanced Production Technology with computer controlled processes is the present day need by the manufacturing industries.\n\nScope:\n\nProduction Engineering has emerged as an independent discipline catering to the global need. Thus, the department was started in the year 1996 with an annual intake of 30 with the following objectives and core values.\n
+• Promote academic excellence.\n
+• Raise the level of knowledge, competence and skills in the area of manufacturing engineering.\n
+• Implementation of new curriculum and innovative instructional methods, such as self-paced learning, problem-solving projects, training in industry.\n
+• Establish and expand research capabilities for students and faculty.\n
+• Consulting projects that will serve industry and the community.\n
+• Exposure and experience with advanced manufacturing technologies such as Robotics, FMS, CIM, Non-conventional machining etc.\n
+Core production engineering subjects, topics on advanced production technologies, IT related subjects and topics on managerial skills are carefully designed and put in the course structure to produce industry ready professionals. The job opportunities lie both in core manufacturing sectors and IT sectors. Due to high rate of globalization and industrialization, the scope of employment for manufacturing professionals is vast and is ever increasing."
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                >
+                <Button
+                    android:id="@+id/btnPro1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimaryDark"
+                    android:drawableTop="@drawable/faculties"
+                    android:layout_gravity="center"
+                    android:textColor="#FFFFFF"
+                    android:padding="10dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"
+                    android:text="Faculties"
+                    />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:id="@+id/btnPro2"
+                    android:background="@color/colorPrimaryDark"
+                    android:textColor="#FFFFFF"
+                    android:padding="10dp"
+                    android:drawableTop="@drawable/question"
+                    android:text="Question"
+
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+                <Button
+                    android:id="@+id/btnPro3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimaryDark"
+                    android:drawableTop="@drawable/note"
+                    android:text="Notes"
+                    android:layout_gravity="right"
+                    android:textColor="#FFFFFF"
+                    android:padding="10dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true" />
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:background="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</android.support.design.widget.CoordinatorLayout>
+

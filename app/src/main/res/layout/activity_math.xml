@@ -1,0 +1,132 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+    </android.support.design.widget.AppBarLayout>
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="?attr/actionBarSize"
+            android:orientation="vertical"
+            android:weightSum="1"
+            android:background="@color/colorPrimaryDark"
+            android:numColumns="auto_fit"
+            android:columnCount="24"
+            android:rowCount="5"
+            android:textAlignment="center"
+            android:padding="5dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Humanities"
+                android:textColor="#FFFFFF"
+                android:textSize="35dp"/>
+            <Button
+                android:textAllCaps="false"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonborder2"
+                android:drawableLeft="@drawable/mathematics"
+                android:text="HOD Mathematics\nName :Dr. Jayaprakash Panda\nEmail: head_math@vssut.ac.in\nPhone: +91-98610 60192"
+                android:textColor="#FFFFFF"
+                android:padding="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="About:\n\nThe department since inception in 1956, has always shared the vision of the University in striving for excellence in research and teaching activities and has succeeded in this endeavor to a large extent. Over the years, the department has evolved as one of the premier departments in the Odisha State providing excellent teaching and research in Mathematics.\n\nApart from the Ph. D. programmes in Mathematics, the department also offers masters programmes: \n\nThe vibrant academic environment is nurtured by strongly motivated faculty and provides an opportunity to pursue research in front line areas of basic sciences as well as in interdisciplinary areas of science and technology. In the coming decade, apart from the existing areas, the department intends to develop areas related to mathematical aspects of computing science in all its manifestations.\n\nVision:\n\nTo foster in mathematical education and research, technical excellence, well poised between abstraction and application. \n"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                >
+                <Button
+                    android:id="@+id/btnMath1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimaryDark"
+                    android:drawableTop="@drawable/faculties"
+                    android:layout_gravity="center"
+                    android:textColor="#FFFFFF"
+                    android:padding="10dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"
+                    android:text="Faculties"
+                    />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:id="@+id/btnMath2"
+                    android:background="@color/colorPrimaryDark"
+                    android:textColor="#FFFFFF"
+                    android:padding="10dp"
+                    android:drawableTop="@drawable/question"
+                    android:text="Question"
+
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+                <Button
+                    android:id="@+id/btnMath3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimaryDark"
+                    android:drawableTop="@drawable/note"
+                    android:text="Notes"
+                    android:layout_gravity="right"
+                    android:textColor="#FFFFFF"
+                    android:padding="10dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true" />
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:background="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</android.support.design.widget.CoordinatorLayout>
+
+
+
+

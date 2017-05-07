@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="info.dinesh.mohanty.activity.Academic.Regulations"
+    android:background="@color/colorPrimaryDark">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            />
+    </android.support.design.widget.AppBarLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="?attr/actionBarSize"
+            android:orientation="vertical"
+            android:weightSum="1"
+            android:background="@color/colorPrimaryDark"
+            android:numColumns="auto_fit"
+            android:columnCount="24"
+            android:rowCount="5"
+            android:textAlignment="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="#FFFFFF"
+                android:text="Bus(Burla Bus Stand)"
+                android:textSize="30dp"
+                android:layout_marginBottom="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:text="Dest.:  BBSR/CTC"
+                android:textSize="20dp"
+                android:layout_marginBottom="20dp"/>
+
+            <Button
+                android:textAllCaps="false"
+                android:background="@drawable/button_border"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/bus"
+                android:text="Ganapati\nDest.: Cuttack/BBSR\nDep.Time: 9:00PM"/>
+            <Button
+                android:textAllCaps="false"
+                android:background="@drawable/button_border"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/bus"
+                android:text="Chakadola\nDest.: Cuttack/BBSR\nDep.Time: 9:15PM"/>
+            <Button
+                android:textAllCaps="false"
+                android:background="@drawable/button_border"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/bus"
+                android:text="Purushottama\nDest.: Cuttack/BBSR\nDep.Time: 9:30PM"/>
+            <Button
+                android:textAllCaps="false"
+                android:background="@drawable/button_border"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/bus"
+                android:text="Shivam(A/C)\nDest.: Cuttack/BBSR\nDep.Time: 9:45PM"/>
+            <Button
+                android:textAllCaps="false"
+                android:background="@drawable/button_border"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/bus"
+                android:text="Sushree(A/C)\nDest.: Cuttack/BBSR\nDep.Time: 10:00PM"/>
+            <Button
+                android:textAllCaps="false"
+                android:background="@drawable/button_border"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/bus"
+                android:text="ShriRam(A/C)\nDest.: Cuttack/BBSR\nDep.Time: 10:15PM"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:text="Dest.:  Berhampur"
+                android:textSize="20dp"
+                android:layout_marginBottom="20dp"/>
+            <Button
+                android:textAllCaps="false"
+                android:background="@drawable/button_border"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/bus"
+                android:text="OSRTC HI-TECH BUS\nDest.:Berhampur\nVia:Bhanjanagar/Ashika\nDep.Time: 4:45PPM"/>
+            <Button
+                android:textAllCaps="false"
+                android:background="@drawable/button_border"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/bus"
+                android:text="Pujari\nDest.:Berhampur\nDep.Time: 8:00PPM"/>
+            <Button
+                android:textAllCaps="false"
+                android:background="@drawable/button_border"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/bus"
+                android:text="Umakanta\nDest.:Berhampur\nDep.Time: 9:45PPM"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:text="Dest.: Talcher/Angul"
+                android:textSize="20dp"
+                android:layout_marginBottom="20dp"/>
+
+            <Button
+                android:textAllCaps="false"
+                android:background="@drawable/button_border"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/bus"
+                android:text="Hota\nDest.: Angul/Talcher\nDep.Time: 2:00PM"/>
+            <Button
+                android:textAllCaps="false"
+                android:background="@drawable/button_border"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/bus"
+                android:text="Vaishnodevi\nDest.:Angul\nDep.Time: 10:45AM"/>
+            <Button
+                android:textAllCaps="false"
+                android:background="@drawable/button_border"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/bus"
+                android:text="Tara\nDest.:Angul/Talcher\nDep.Time: 2:15PM"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:text="Dest.: Balasore/Bhadrak"
+                android:textSize="20dp"
+                android:layout_marginBottom="20dp"/>
+            <Button
+                android:textAllCaps="false"
+                android:background="@drawable/button_border"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/bus"
+                android:text="Lucky\nDest.: Balasore/Bhadrak\nDep.Time: 7:15PM"/>
+            <Button
+                android:textAllCaps="false"
+                android:background="@drawable/button_border"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/bus"
+                android:text="SreeRamjee\nDest.: Balasore/Bhadrak\nDep.Time: 7:15PM"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:text="Dest.:  Rourkela"
+                android:textSize="20dp"
+                android:layout_marginBottom="20dp"/>
+            <Button
+                android:textAllCaps="false"
+                android:background="@drawable/button_border"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/bus"
+                android:text="Prince\nDest.: Rourkela\nDep.Time: 5:00AM"/>
+            <Button
+                android:textAllCaps="false"
+                android:background="@drawable/button_border"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/bus"
+                android:text="Sushree\nDest.: Rourkela\nDep.Time: 5:15AM"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:text="Dest.:  Baripada"
+                android:textSize="20dp"
+                android:layout_marginBottom="20dp"/>
+            <Button
+                android:textAllCaps="false"
+                android:background="@drawable/button_border"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/bus"
+                android:text="Nilamadhab\nDest.:Baripda\nDep.Time: 9:45PM"/>
+            <Button
+                android:textAllCaps="false"
+                android:background="@drawable/button_border"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/bus"
+                android:text="Khusi\nDest.:Baripda\nDep.Time: 9:45PM"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:text="Dest.: Raipur"
+                android:textSize="20dp"
+                android:layout_marginBottom="20dp"/>
+
+            <Button
+                android:textAllCaps="false"
+                android:background="@drawable/button_border"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/bus"
+                android:text="Maharaja\nDest.:Raipur\nDep.Time: 9:15PPM"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:text="Dest.:  Keonjhar"
+                android:textSize="20dp"
+                android:layout_marginBottom="20dp"/>
+            <Button
+                android:textAllCaps="false"
+                android:background="@drawable/button_border"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/bus"
+                android:text="Shivashakti\nDest.:Keonjhar\nDep.Time: 9:15PPM"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:text="Dest.:  Sinapali/Khairia"
+                android:textSize="20dp"
+                android:layout_marginBottom="20dp"/>
+            <Button
+                android:textAllCaps="false"
+                android:background="@drawable/button_border"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/bus"
+                android:text="Vijaylaxmi\nDest.: Sinapali/Khairia\nDep.Time: 9:45PPM"/>
+            <Button
+                android:textAllCaps="false"
+                android:background="@drawable/button_border"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/bus"
+                android:text="Jagadamba\nDest.: Sinapali/Khairia\nDep.Time: 9:45PPM"/>
+
+
+            <Button
+
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:background="@color/colorPrimaryDark"
+                android:textSize="25dp"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="10dp"
+                />
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+</RelativeLayout>
+

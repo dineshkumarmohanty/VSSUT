@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="info.dinesh.mohanty.fragments.OneFragment"
+    android:background="@color/colorPrimaryDark">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:textAllCaps="false"
+                android:background="@drawable/button_border"
+                android:textColor="#FFFFFF"
+                android:textSize="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/debmis"
+                android:layout_marginBottom="10dp"
+                android:text="Dean, Students' Welfare:\nName: Dr. Debadutta Mishra\nPhone:0663-2430549"/>
+            <Button
+                android:textAllCaps="false"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="#FFFFFF"
+                android:textSize="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/pkk"
+                android:layout_marginBottom="10dp"
+                android:text="Dean, Faculty and Planning:\nName: Dr. Pravin Kumar Kar\nPhone: +919861142838"/>
+            <Button
+                android:textAllCaps="false"
+                android:background="@drawable/button_border"
+                android:textColor="#FFFFFF"
+                android:textSize="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/pkh"
+                android:layout_marginBottom="10dp"
+                android:text="Dean, CDCE:\nName: Dr. Prakash Kumar Hota\nPhone:0663-2431026"/>
+            <Button
+                android:textAllCaps="false"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="#FFFFFF"
+                android:textSize="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/skss"
+                android:layout_marginBottom="10dp"
+                android:text="Dean, PGS and R:\nName: Prof. Sarat Kumar Swain\nPhone:+91-9439730360"/>
+            <Button
+                android:textAllCaps="false"
+                android:background="@drawable/button_border"
+                android:textColor="#FFFFFF"
+                android:textSize="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/pkds"
+                android:layout_marginBottom="10dp"
+                android:text="Dean, Academic Affairs:\nName: Prof. Pradip Kumar Das\nPhone:+91-9437550677"/>
+            <Button
+                android:textAllCaps="false"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="#FFFFFF"
+                android:textSize="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ann"
+                android:layout_marginBottom="10dp"
+                android:text="Dean, SRIC:\nName: Prof. Amar Nath Nayak\nPhone: 09861238403"/>
+            <Button
+                android:textAllCaps="false"
+                android:background="@drawable/button_border"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginBottom="10dp"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

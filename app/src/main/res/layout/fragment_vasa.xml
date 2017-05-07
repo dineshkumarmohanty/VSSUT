@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="info.dinesh.mohanty.activity.FEST.Samave"
+    android:background="@color/colorPrimaryDark">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" VaSSaUnT"
+                android:layout_gravity="center"
+                android:textSize="30dp"
+                android:textColor="#FFFFFF"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/vassuant"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="About:\n\nVassaunt is the annual cultural festival of VSSUT Burla.Vassaunt, a majestic four days fest in VSSUT Burla, is one of the most awaited inter college cultural events in the State. VSSUT, having the repute of being one of the oldest premiere institute of the state, pulls a plethora of participants from the State as well as from outside the state.It is a symphony which celebrates every form of art, a synthesis which encompasses every aspect of our culture and a synergy which vouches to drench you with delight.\n\n"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Events:\n\n★ Mega Events:\n      •  Mr And Ms VASSAUNT\n      • V-ROADIES\n      • Scavengers Hunt\n      • Grab The Lime Light\n      • To The Beat\n      • Rock And Rolla etc.\n\n★ EMoTICA  Events:\n       • Theatrics\n       • AAWAZn\n       • Halloween Night\n\n★ Gaming Events:\n      • Counter Strike 1.6\n      • FIFA \n      • Blur\n      • DOTA \n\n★ Audio Visual Club Events:\n      • Film show\n      • Air Band\n      • DISHA\n\n★ Literary Events:\n      • VSSUT Sadan\n      • Pen It Down \n      • Preception\n      • Twin Story \n\n★ Artifex:\n      • Paint On Tee\n      • Desi Designer\n      • Your Face My Canvas\n      • Frame Your Vision\n      • Snap IT\n\n★DJ Night\n\nPhoto(DJ NIGHT):\n"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/dj"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
+

@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="info.dinesh.mohanty.activity.Academic.Regulations"
+    android:background="@color/colorPrimaryDark">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            />
+    </android.support.design.widget.AppBarLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="?attr/actionBarSize"
+            android:orientation="vertical"
+            android:background="@color/colorPrimaryDark"
+            android:numColumns="auto_fit"
+            android:textAlignment="center"
+            android:padding="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Academic Courses"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#FFFFFF"
+                android:padding="5dp"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="i) 4 YEARS B.TECH. PROGRAMME (FULL TIME)\n\n"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#FFFFFF"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.	Civil Engineering -	140\n\n
+2.	Electrical Engineering - 140\n
+3.	Mechanical Engineering - 141\n
+4.	Electronics and Telecomm. Engg.- 140\n
+5.	Computer Science and Engineering -	70\n
+6.	Production Engineering - 69\n
+7.	Information Technology	- 69\n
+8.	Electrical and Electronics Engineering -	69\n
+9.	Metallurgy and Materials Engineering - 69\n
+10.	Architecture - 60\n
+11.	Chemical Engineering -	69\n\n
+TOTAL	-	1036\n\n"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="ii) 5 YEARS INTEGRATED UG and PG DUAL DEGREE PROGRAMME (FULL TIME)\n\n"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#FFFFFF"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.	Civil Engineering	B.Tech. in Civil Engg and M.Tech. in  Structural Engg. - 18\n\n
+2.	Electrical Engg. B.Tech. in Electrical Engg. and M.Tech. in Power System Engg. - 18\n\n
+TOTAL -	36\n\n"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="iii) 2 YEARS M.TECH. PROGRAMMEs (FULL TIME)\n\n"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#FFFFFF"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.Civil Engineering\n\n      Water Resources Engg - 18\n      Structural Engineering - 18\n      Transportation Engineering - 18\n      Geo-technical Engineering - 18\n      Environmental Science and Engg - 18\n\n
+2.Electrical Engg.\n\n      Power System Engg. - 18\n      Power Electronics Control and Drives - 18\n      Instrumentation and Control - 18\n\n
+3.Mechanical Engg.\n\n      Machine Design and Analysis	- 18\n      Heat Power Engg. - 18\n      Production Engg. - 18\n\n
+4.	Electronics and Telecomm. Engg.\n\n      Communication Systems - 18\n      VLSI Signal Processing - 18\n      Microwave Engineering - 18\n\n
+5.	Computer Science and Engg. and IT\n\n      Computer Science and Engg. - 18\n      Information and Communication Technology - 18\n\n
+6.	Production Engg.\n\n      Manufacturing Systems - 18\n      Industrial and Production Engg - 18\n      Robotics and CAD-CAM - 18\n\n
+7	Mathematics\n\n      Computational Mathematics and Data Processing - 18\n\n
+TOTAL - 360\n\n"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="iv) 2 YEARS M.Sc. PROGRAMME (FULL TIME)\n\n"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#FFFFFF"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. M.Sc. (Physics) - 18\n
+2.	M.Sc. (Chemistry) - 18\n
+3.	M.Sc. (Mathematics) - 18\n\n
+TOTAL -	54\n\n"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="v) 5 YEARS INTEGRATED M.Sc. PROGRAMME (FULL TIME)\n\n"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#FFFFFF"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Physics - 18\n
+2. Chemistry - 18\n
+3. Mathematics - 18\n\n
+TOTAL -	54\n\n"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="vi) One year M.Phil. PROGRAMME (FULL TIME)\n\n"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#FFFFFF"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Physics - 10\n
+2. Chemistry - 10\n
+3. Mathematics - 10\n\n
+TOTAL -	30\n\n"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="10dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="vii) 3 YEARS MCA PROGRAMME (FULL TIME)\n\n"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#FFFFFF"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.Master in Computer Applications - 30\n"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="viii) Ph. D. PROGRAMME\n\n"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#FFFFFF"
+                android:padding="5dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.	Civil Engineering \n
+2.	Electrical Engineering / EEE\n
+3.	Mechanical Engineering\n
+4.	Electronics and Telecomm. Engineering	\n
+5.	Computer Science and Engineering	\n
+6.	Production Engineering	\n
+7.	Physics	\n
+8.	Chemistry	\n
+9.	Mathematics	\n
+10.	Information Technology	\n
+11	Metallurgy and Materials Engineering	\n
+12	English\n"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="10dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                />
+        </LinearLayout>
+
+
+
+    </ScrollView>
+</RelativeLayout>
+
+

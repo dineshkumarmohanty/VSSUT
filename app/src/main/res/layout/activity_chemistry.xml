@@ -1,0 +1,133 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+    </android.support.design.widget.AppBarLayout>
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="?attr/actionBarSize"
+            android:orientation="vertical"
+            android:weightSum="1"
+            android:background="@color/colorPrimaryDark"
+            android:numColumns="auto_fit"
+            android:columnCount="24"
+            android:rowCount="5"
+            android:textAlignment="center"
+            android:padding="5dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Chemistry"
+                android:textColor="#FFFFFF"
+                android:textSize="35dp"/>
+            <Button
+                android:textAllCaps="false"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonborder2"
+                android:drawableLeft="@drawable/chemistry"
+                android:text="HOD Chemistry\nName:  Prof. Rahas Bihari Panda\nEmail:  hodchem@vssut.ac.in\nPhone:  +91-9861132136\n"
+                android:textColor="#FFFFFF"
+                android:padding="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Inception:\n
+The Department of Chemistry started with the establishment of VSSUT, BURLA, Presently, Veer Surendra Sai University of Technology, in 1956. It is one of the oldest chemistry Departments in the State started under the founder headship of Late Prof. Sripati Pani, who later on headed the PG Department of Chemistry, Sambalpur University. Luminaries like Prof. R C Das, Professor of this Department, later served as the Chairman, Pollution Control Board, Orissa and Vice Chancellor of Berhampur University.
+
+The Department infuses the basic fundamentals of Chemistry to the students at B Tech level. From the session 2010-11, the Department started MSc courses in the specialization of Industrial Chemistry. The syllabus of the postgraduate courses includes emerging areas of Chemical Science such as Nanochemistry, Green Chemistry, Supramolecular Chemistry along with conventional topics as per UGC norms and latest courses of the NET, GATE etc.. Further, research scholars are enrolled in the Department of Chemistry leading to Doctoral Degree.
+
+The Department is going to start M Phil courses from the session 2012-13 as per new UGC regulation-2009, which is in the pipeline and subject to the recommendation of Academic Council with due approval from competent authority."
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                >
+                <Button
+                    android:id="@+id/btnChemistry1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimaryDark"
+                    android:drawableTop="@drawable/faculties"
+                    android:layout_gravity="center"
+                    android:textColor="#FFFFFF"
+                    android:padding="10dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"
+                    android:text="Faculties"
+                    />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:id="@+id/btnChemistry2"
+                    android:background="@color/colorPrimaryDark"
+                    android:textColor="#FFFFFF"
+                    android:padding="10dp"
+                    android:drawableTop="@drawable/question"
+                    android:text="Question"
+
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+                <Button
+                    android:id="@+id/btnChemistry3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimaryDark"
+                    android:drawableTop="@drawable/note"
+                    android:text="Notes"
+                    android:layout_gravity="right"
+                    android:textColor="#FFFFFF"
+                    android:padding="10dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true" />
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:background="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</android.support.design.widget.CoordinatorLayout>

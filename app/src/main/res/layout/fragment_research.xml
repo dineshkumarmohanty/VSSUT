@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="info.dinesh.mohanty.activity.FEST.Samave"
+    android:background="@color/colorPrimaryDark">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Central Research Facility"
+                android:layout_gravity="center"
+                android:textSize="30dp"
+                android:textColor="#FFFFFF"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="About:\n\nThis CRF consists of HITACHI make SU3500 Scanning Electron Microscope (SEM). This SEM is used for surface characterization of all kind of solid samples. This SEM can operate from 0.3kV to 30kV. However, this is capable of taking photographs of non-conducting samples with variable pressure mode from 6 to 650 Pa. This consists of both secondary electron (SE) and back scattered electron (BSE) detectors. The resolution of SE detector is 7nm and of BSE detector is 10nm. This is capable of taking photographs for as big as 120 mm diameter with working distance varies from 10 mm to 80 mm. This is fully computerized system. The photographs are saved in .jpeg format with maximum 1280 × 960 pixel resolution. This is used for observing surface morphology in micron/nano level. The samples are placed over conducting black tapes to increase its effectiveness. The photograph scanning speed is varied with the type of sample.\n\nThis is attached with OXFORD INCAX act model make Energy Dispersive Spectroscopy (EDS). The EDS attachment is used for elemental analysis, line scanning and mapping of the present elements in the sample. This is having a resolution of 5.9 keV. This will show the element distribution on the material in atomic level. Both the items are very much required for characterization of surface. These are used by students, research scholars, faculties for teaching, research as well as consultancy work. We perform similar experiments for outsiders on payment basis. Both the items were purchased in August 2015 with Rupees 1.6 Crores from TEQIP fund.\n\nThis CRF contains HITACHI make SEM (Scanning Electron Microscope) SU3500 model with OXFORD EDAX facility.\n\nProfessor In Charge:\n\n Dr. Saroj Kumar Sarangi,\n Associate Professor\n,Mechanical Engineering Department\n\nThe CRF was inaugurated on 1st October 2015 by Dr. E. Saibaba Reddy, Vice Chancellor of VSSUT Burla. The facility is created with the help of TEQIP-II. The TEQIP Coordinator is Dr. D. Dhupal, Professor, Production Engineering Department."
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
+

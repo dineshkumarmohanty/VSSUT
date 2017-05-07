@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="info.dinesh.mohanty.activity.FEST.Samave"
+    android:background="@color/colorPrimaryDark">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Samavesh"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:textColor="#FFFFFF"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/samavesh"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About:\n\nSamavesh is the annual national level Techno-Management/Festival of the University. It has now become the largest technical festival in the state and is headed towards becoming the biggest fest of its kind in the country. Samavesh serves as a academic, and it also brings together thousands of engineering and applied science students from all over the country to exhibit their innovations and Novel designs/Proto types/Products Robots, and also present technical papers.\n\n"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Events:\n\n★ Robotics Events:\n      •  Devil’s Valley\n      • Sumo-War\n      • Abstract Submission\n      • Aquamav\n      • RoboSoccer etc.\n\n★ EDP Events:\n       • Case Study\n       • Sell Me This Pen\n       • Win of Wits(Quiz)\n\n★ Gaming Events:\n      • Counter Strike 1.6\n      • FIFA \n      • Blur\n      • Mini Militia \n\n★Fun Events:\n      • Treasure Hunt\n      • Spell Bee\n      • Seven Stones\n\n★ Fire Show\n\n★School Exhiition\n\n★ Branch Events\n\n★ Graffiti Design\n\n★ Quiz Events\n\nPhoto(Robowar):\n"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"/>
+
+
+
+            <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sam"
+            android:layout_gravity="center"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+</LinearLayout>

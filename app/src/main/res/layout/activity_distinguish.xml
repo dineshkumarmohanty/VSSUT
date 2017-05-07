@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="info.dinesh.mohanty.activity.Academic.Regulations"
+    android:background="@color/colorPrimaryDark">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            />
+    </android.support.design.widget.AppBarLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="?attr/actionBarSize"
+            android:orientation="vertical"
+            android:background="@color/colorPrimaryDark"
+            android:numColumns="auto_fit"
+            android:textAlignment="center"
+            android:padding="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Distinguished Alumni"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#FFFFFF"
+                android:padding="5dp"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="--> Civil Engg.\n\n
+★ Prof. Braja Mohan Das - ( 1963 B.Tech) Dean Emeritus, College of Engineering and Computer Science, California State University, Sacramento, California, USA, VSSUT Best Alumnus Award-2014.\n\n★ Er. Sudhakar Patri, (1969, B.Tech.), Ex-Chief Engineer, Water Resources Dept, Govt. of Odisha.\n\n
+★  Er. Nalini Ranjan Pradhan - EIC cum Works Secretary, Govt of Odisha and Member of Board of Management, VSSUT.\n\n★  Prof. Pradeep Behera, (1987, B.Tech.)Professor and Chair, Department of Civil Engineering, University of the District of Columbia, USA.\n\n
+--> Electronics and  Teleco. Engg.\n\n
+★ Prof. Ganapati Panda ( 1972, B.Tech.) -Ex-Dy Director, IIT Bhubaneswar.\n\n
+★ Prof. Sagar Naik, (1980 B.Tech.) Professor, Dept .of Electrical and Comp. Engg., University of Waterloo, Canada\n\n
+★ Prof. Rabi N. Mahapatra- (1979 B.Tech.), Professor, Dept. of Comp. Sc. and  Engg., Texas A and M University, USA.\n\n
+★ Dr. Binay Kumar Das - ( 1979 B.Tech.) - Director, ITR, Balasore, DRDO\n\n
+★ Dr. Sanjay Burman ( 1985 B.Tech. ) - Director, CAIR, DRDO, Bangalore and Recipient of Scientist of the Year Award from Honorable Prime Minister of India. Member of Board of Management, VSSUT.\n\n
+★ Syam Sundar Pattnaik ( 1992, PhD Electronic Enng.), Vice-Chancelllor, Biju Pattanaik University of Technology, Rourkela.\n\n
+--> Electrical Engg.\n\n
+★ Er. S.B. Nayak, (1968, B.Tech.) - Ex-President(Tech.), Vedanta and Ex-Director, NALCO.\n\n
+★ Prof. J.K. Satapathy(1976, B.Tech. ) Ex-Vice Chancellor, BPUT Rourkela.\n\n
+★ Er. Prasant K. Pradhan ( 1977, B.Tech.) - CEO, WESCO, Odisha\n\n
+★ Prof. C.R. Tripathy(1983, B.Tech. ) Vice-Chancellor, Sambalpur University, Burla.\n\n
+★ Er. Sanjay Mishra (1990, B.Tech.) Author and Principal PM Manager at Microsoft, Redmond, USA\n\n.
+★ Er. Jagadish Mahapatra(1993, B.Tech. )-Managing Director for India and SAARC at McAfee, Mumbai, India.\n\n
+--> Mechanical Engg.\n\n
+★ Late Ajit Mahaptra ( 1961, B.Tech.) - Ex-CMD Kalinga Engineers Ltd.\n\n
+★  Prof. Aswini K. Mohanty (1962, B.Tech.) -Ex-Dy. Director, IIT Kharagpur.\n\n
+★ Er. Banbir Das ( 1965, B.Tech.) - Ex-Addl. D.G, Ministry of Defence, Govt. of India.\n\n
+★ Mihir K. Mohanty (1965, B.Tech) - Ex-Vice-President, ACC, Mumbai\n\n
+★ R.P. Panigrahi (1967, B.Tech.) - General Manager, OCL, Rajgangpur\n\n
+★ Prof. Krushna Chandra. Singh ( 1969, B.Tech.) - Ex-Principal, UCE Burla\n\n
+★ Prof.  Brajabandhu Pradhan (1970, B.Tech.) - Ex-Principal, UCE Burla.\n\n
+★ S.S. Mohanty ( 1977, B.Tech.) - Director(Technical), SAIL, New Delhi\n\n
+--> Prof. Krishna Dev Kumar, Professor and Canada Research Chair in Space Systems, Department of Aerospace Engineering, Ryerson University, Canada\n\n
+--> Er. Naren K. Sahoo, Inventor of ST micro\n\n
+--> Er. Arup Nanda, (1991, B.Tech) Principal Database Architect at Starwood Hotels and Resorts Worldwide, Inc..USA  Awarded the Enterprise Architect of the Year by Oracle.\n\n
+
+"
+                android:textSize="20dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="10dp"
+                />
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                />
+        </LinearLayout>
+
+
+
+    </ScrollView>
+</RelativeLayout>

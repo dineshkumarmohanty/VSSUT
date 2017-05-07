@@ -1,0 +1,248 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".activity.CGPA"
+    android:background="@color/colorPrimaryDark">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10px">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+
+
+        <Spinner
+
+            android:id="@+id/sprOperator1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/sprItems"
+
+            />
+            </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Subject2(4Credit)"
+                android:textSize="30dp"
+                android:textColor="#FFFFFF"/>
+            <Spinner
+
+                android:id="@+id/sprOperator2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/sprItems"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Subject3(4Credit)"
+                android:textSize="30dp"
+                android:textColor="#FFFFFF"
+                />
+            <Spinner
+
+                android:id="@+id/sprOperator3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/sprItems"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Subject4(4Credit)"
+                android:textSize="30dp"
+                android:textColor="#FFFFFF"
+                />
+            <Spinner
+
+                android:id="@+id/sprOperator4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/sprItems"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Subject5(4Credit)"
+                android:textSize="30dp"
+                android:textColor="#FFFFFF"                />
+            <Spinner
+
+                android:id="@+id/sprOperator5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/sprItems"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Subject6(4Credit)"
+                android:textSize="30dp"
+                android:textColor="#FFFFFF"
+                />
+            <Spinner
+
+                android:id="@+id/sprOperator6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/sprItems"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Subject7(2Credit)"
+                android:textSize="30dp"
+                android:textColor="#FFFFFF"
+                />
+            <Spinner
+
+                android:id="@+id/sprOperator7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/sprItems"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Subject8(2Credit)"
+                android:textSize="30dp"
+                android:textColor="#FFFFFF"                />
+            <Spinner
+
+                android:id="@+id/sprOperator8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/sprItems"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            >
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Subject9(2Cr)"
+                android:textSize="30dp"
+                android:textColor="#FFFFFF"                />
+            <Spinner
+
+                android:id="@+id/sprOperator9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/sprItems"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Subject10(2Credit)"
+                android:textSize="30dp"
+                android:textColor="#FFFFFF"                />
+            <Spinner
+
+                android:id="@+id/sprOperator10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/sprItems"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnResult"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/lblBtnResult"
+        />
+
+    <EditText
+        android:id="@+id/edtResult"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal" />
+
+</LinearLayout>

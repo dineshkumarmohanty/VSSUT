@@ -1,0 +1,128 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/colorPrimaryDark">
+
+
+<android.support.design.widget.AppBarLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+</android.support.design.widget.AppBarLayout>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:background="@color/colorPrimaryDark"
+        android:numColumns="auto_fit"
+        android:columnCount="24"
+        android:rowCount="5"
+        android:textAlignment="center"
+        android:padding="5dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Chemical"
+            android:textColor="#FFFFFF"
+            android:textSize="35dp"/>
+        <Button
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonborder2"
+            android:drawableLeft="@drawable/chemical"
+            android:text="HOD Chemical Engineering\nName: Dr. Pravin Kumar Kar\nEmail: hodce@vssut.ac.in\nPhone: +91-9861142838"
+            android:textColor="#FFFFFF"
+            android:padding="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About:\n\nThe Department of Chemical Engineering, Veer Surendra Sai University of Technology is setting its footprint in 2014 with 4 year B.Tech. programme to inculcate students with a strong fundamental knowledge in the field of chemical Engineering and to meet the challenges of rapidly changing technological environment. Although in its nascent stage, the state government has already sanctioned nine faculty positions to strengthen it. The branch of Chemical Engineering deals with the chemical processes for manufacturing of different products, designing of related equipments. The Chemical Engineering department will try to impart quality education to the students in all areas especially in the modern broad areas such as nanotechnology, green technology, renewable energy,  environmental engineering, biochemical engineering, process control, reaction engineering, transfer operations etc. \n\nVision :\n\nTo become a nationally and internationally acclaimed department of higher studies to prepare students to meet new challenges faced by chemical and related industries through green technologies.\n\nMission:\n\nI) To impart strong fundamental knowledge to the students to face the new world in a rapidly changing technological environment. \nII)	To carry out interdisciplinary research so as to address the needs of chemical engineering in particular and society in general. \nIII)	To develop leadership qualities in the students to solve chemical engineering problems keeping in mind the safety and environmental concerns.\nIV)	To prepare students to face the challenges of future."
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            >
+            <Button
+                android:id="@+id/btnChemical1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryDark"
+                android:drawableTop="@drawable/faculties"
+                android:layout_gravity="center"
+                android:textColor="#FFFFFF"
+                android:padding="10dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:text="Faculties"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:id="@+id/btnChemical2"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="#FFFFFF"
+                android:padding="10dp"
+                android:drawableTop="@drawable/question"
+                android:text="Question"
+
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+            <Button
+                android:id="@+id/btnChemical3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryDark"
+                android:drawableTop="@drawable/note"
+                android:text="Notes"
+                android:layout_gravity="right"
+                android:textColor="#FFFFFF"
+                android:padding="10dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true" />
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:background="@color/colorPrimaryDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+
+</android.support.design.widget.CoordinatorLayout>

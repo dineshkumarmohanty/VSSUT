@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="info.dinesh.mohanty.activity.FEST.Samave"
+    android:background="@color/colorPrimaryDark">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Illumina"
+                android:layout_gravity="center"
+                android:textSize="30dp"
+                android:textColor="#FFFFFF"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/illu"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="About:\n\nIt is the intra-university sports fest of VSSUT Burla.Various Sports Events are Organised in Illumina.Illumin, a majestic two days fest in VSSUT Burla, is one of the most awaited  events in the State. It is organised by Sports Athletics Club, VSSUT ,Burla.\n\n "
+                android:layout_gravity="center"
+
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Events:\n\n★ Broad jump\n★ Shotput\n★  Relay Race\n★ Cycle race\n★ Discuss throw\n★ Hammer throw\n★Javelin throw\n★ High jump\n★ 3 legged race \n★ Kho kho\n★ Race\n★ Long Jump\n★ Kabaddi And many more\n\nPhoto(A Kaabaddi Match):\n\n"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/kabadi"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
+

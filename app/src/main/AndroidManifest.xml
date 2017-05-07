@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="info.dinesh.mohanty">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/mainlogo"
+        android:label="VSSUT"
+        android:theme="@style/MyMaterialTheme">
+        <meta-data
+            android:name="com.onesignal.NotificationOpened.DEFAULT"
+            android:value="DISABLE" />
+
+        <activity
+            android:name=".activity.CLUB.Clubs"
+            android:label="CLUBS"
+            android:parentActivityName=".activity.Starts" />
+        <activity
+            android:name=".activity.CLUB.Robotics"
+            android:label="Robotics"
+            android:parentActivityName=".activity.CLUB.Clubs" />
+        <activity
+            android:name=".activity.CLUB.Dramatics"
+            android:label="EMoTICA"
+            android:parentActivityName=".activity.CLUB.Clubs" />
+        <activity
+            android:name=".activity.CLUB.Music"
+            android:label="Souls"
+            android:parentActivityName=".activity.CLUB.Clubs" />
+        <activity
+            android:name=".activity.CLUB.Dance"
+            android:label="Vibranz"
+            android:parentActivityName=".activity.CLUB.Clubs" />
+        <activity
+            android:name=".activity.CLUB.Literary"
+            android:label="The Vission"
+            android:parentActivityName=".activity.CLUB.Clubs" />
+        <activity
+            android:name=".activity.CLUB.Quiz"
+            android:label="QUIZZINE"
+            android:parentActivityName=".activity.CLUB.Clubs" />
+        <activity
+            android:name=".activity.CLUB.SanskarKendra"
+            android:label="Sanskar Kendra"
+            android:parentActivityName=".activity.CLUB.Clubs" />
+        <activity
+            android:name=".activity.CLUB.Coding"
+            android:label="Enigma"
+            android:parentActivityName=".activity.CLUB.Clubs" />
+        <activity
+            android:name=".activity.CLUB.Athletic"
+            android:label="Athletic"
+            android:parentActivityName=".activity.CLUB.Clubs" />
+        <activity
+            android:name=".activity.CLUB.Art"
+            android:label="Pixels"
+            android:parentActivityName=".activity.CLUB.Clubs" />
+        <activity
+            android:name=".activity.CLUB.Automobile"
+            android:label="SAE"
+            android:parentActivityName=".activity.CLUB.Clubs" />
+        <activity android:name=".activity.CLUB.Main2Activity" />
+        <activity
+            android:name=".activity.ABOUT.AboutVSSUT"
+            android:label="About"
+            android:parentActivityName=".activity.Starts" />
+        <activity
+            android:name=".activity.Academic.Holidaylist"
+            android:label="Holidy List "
+            android:parentActivityName=".activity.Academic.Academics" />
+        <activity
+            android:name=".activity.Academic.Academics"
+            android:label="Academics"
+            android:parentActivityName=".activity.Starts" />
+        <activity
+            android:name=".activity.Academic.Syllabus"
+            android:label="Syllabus "
+            android:parentActivityName=".activity.Academic.Academics" />
+        <activity
+            android:name=".activity.Academic.Regulations"
+            android:label="Academic Regultion "
+            android:parentActivityName=".activity.Academic.Academics" />
+        <activity
+            android:name=".activity.DEPARTMENT.Departments"
+            android:label="Departments "
+            android:parentActivityName=".activity.Starts" />
+        <activity
+            android:name=".activity.Visit.Visit"
+            android:label="Visit"
+            android:parentActivityName=".activity.Starts" />
+        <activity
+            android:name=".activity.Visit.Places"
+            android:label="Places "
+            android:parentActivityName=".activity.Visit.Visit" />
+        <activity
+            android:name=".activity.Visit.AutoDriver"
+            android:label="Auto Drivers "
+            android:parentActivityName=".activity.Visit.Visit" />
+        <activity
+            android:name=".activity.Visit.Bus"
+            android:label="Bus "
+            android:parentActivityName=".activity.Visit.Visit" />
+        <activity
+            android:name=".activity.Visit.BusTicket"
+            android:label="BookTicket "
+            android:parentActivityName=".activity.Visit.Visit" />
+        <activity
+            android:name=".activity.FEST.Fest"
+            android:label="Fests"
+            android:parentActivityName=".activity.Starts" />
+        <activity
+            android:name=".activity.Fascility.Fascility"
+            android:label="Facilities"
+            android:parentActivityName=".activity.Starts" />
+        <activity
+            android:name=".activity.Noticeboard.NoticeBoard"
+            android:label="Notice Board"
+            android:parentActivityName=".activity.Starts" />
+        <activity
+            android:name=".activity.COMPANY.Company"
+            android:label="About APP"
+            android:parentActivityName=".activity.Starts" />
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".activity.Starts"
+            android:label="VSSUT">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.Food.Food"
+            android:label="Food "
+            android:parentActivityName=".activity.Starts" />
+        <activity
+            android:name=".activity.Food.Lazziz"
+            android:label="Lazziz Menu "
+            android:parentActivityName=".activity.Food.Food" />
+        <activity
+            android:name=".activity.Food.Kedia"
+            android:label="Kedia&apos;s Menu "
+            android:parentActivityName=".activity.Food.Food" />
+        <activity
+            android:name=".activity.Food.Dwaraka"
+            android:label="Dwaraka Menu "
+            android:parentActivityName=".activity.Food.Food" />
+        <activity
+            android:name=".activity.Food.Sahid"
+            android:label="Sahid Menu "
+            android:parentActivityName=".activity.Food.Food" />
+        <activity
+            android:name=".activity.Food.Swarup"
+            android:label="Swarup Menu "
+            android:parentActivityName=".activity.Food.Food" />
+        <activity
+            android:name=".activity.Food.Gocool"
+            android:label="Gocool Menu "
+            android:parentActivityName=".activity.Food.Food" />
+        <activity
+            android:name=".activity.Food.Icepoint"
+            android:label="Icepoint Menu "
+            android:parentActivityName=".activity.Food.Food" />
+        <activity
+            android:name=".activity.Food.Gocoolbe"
+            android:label="Gocool Bakery Menu "
+            android:parentActivityName=".activity.Food.Food" />
+        <activity
+            android:name=".activity.Food.AFC"
+            android:label="AFC Menu "
+            android:parentActivityName=".activity.Food.Food" />
+        <activity
+            android:name=".activity.Food.CG"
+            android:label="Choudhry&apos;s Store Menu "
+            android:parentActivityName=".activity.Food.Food" />
+        <activity
+            android:name=".activity.Food.MaaMetakani"
+            android:label="Maa Metakani Resturant Menu "
+            android:parentActivityName=".activity.Food.Food" />
+        <activity
+            android:name=".activity.DEPARTMENT.Architech"
+            android:label="Architecture "
+            android:parentActivityName=".activity.DEPARTMENT.Departments" />
+        <activity android:name=".activity.CGPA" />
+        <activity
+            android:name=".activity.DEPARTMENT.Chemical"
+            android:label="Chemical "
+            android:parentActivityName=".activity.DEPARTMENT.Departments" />
+        <activity
+            android:name=".activity.DEPARTMENT.Chemistry"
+            android:label="Chemistry"
+            android:parentActivityName=".activity.DEPARTMENT.Departments" />
+        <activity
+            android:name=".activity.DEPARTMENT.Civil"
+            android:label="Civil"
+            android:parentActivityName=".activity.DEPARTMENT.Departments" />
+        <activity
+            android:name=".activity.DEPARTMENT.Computer"
+            android:label="Computer Science"
+            android:parentActivityName=".activity.DEPARTMENT.Departments" />
+        <activity
+            android:name=".activity.DEPARTMENT.EEE"
+            android:label="Electrical and EEE"
+            android:parentActivityName=".activity.DEPARTMENT.Departments" />
+        <activity
+            android:name=".activity.DEPARTMENT.ETC"
+            android:label="ETC"
+            android:parentActivityName=".activity.DEPARTMENT.Departments" />
+        <activity
+            android:name=".activity.DEPARTMENT.Humanities"
+            android:label="Humanities"
+            android:parentActivityName=".activity.DEPARTMENT.Departments" />
+        <activity
+            android:name=".activity.DEPARTMENT.Math"
+            android:label="Mathematics"
+            android:parentActivityName=".activity.DEPARTMENT.Departments" />
+        <activity
+            android:name=".activity.DEPARTMENT.Mecha"
+            android:label="Mechanical"
+            android:parentActivityName=".activity.DEPARTMENT.Departments" />
+        <activity
+            android:name=".activity.DEPARTMENT.Metal"
+            android:label="Metallurgy"
+            android:parentActivityName=".activity.DEPARTMENT.Departments" />
+        <activity
+            android:name=".activity.DEPARTMENT.Physics"
+            android:label="Physics"
+            android:parentActivityName=".activity.DEPARTMENT.Departments" />
+        <activity
+            android:name=".activity.DEPARTMENT.Production"
+            android:label="Production"
+            android:parentActivityName=".activity.DEPARTMENT.Departments" />
+        <activity
+            android:name=".activity.DEPARTMENT.MCA"
+            android:label="MCA"
+            android:parentActivityName=".activity.DEPARTMENT.Departments" />
+        <activity
+            android:name=".activity.CONTACTS.Contact"
+            android:label="Contacts "
+            android:parentActivityName=".activity.Starts" />
+        <activity
+            android:name=".Splashscreen"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.FIRST" />
+        <activity
+            android:name=".activity.CLUB.Yoga"
+            android:label="Yoga Club"
+            android:parentActivityName=".activity.CLUB.Clubs" />
+        <activity
+            android:name=".activity.Alumni.Alumni"
+            android:label="Alumni "
+            android:parentActivityName=".activity.Starts" />
+        <activity
+            android:name=".activity.Alumni.Distinguish"
+            android:label="Distinguished Alumni"
+            android:parentActivityName=".activity.Alumni.Alumni" />
+        <activity
+            android:name=".activity.Alumni.AlumniEvent"
+            android:label="Alumni Events"
+            android:parentActivityName=".activity.Alumni.Alumni" />
+        <activity
+            android:name=".activity.Academic.Courses"
+            android:label="Courses"
+            android:parentActivityName=".activity.Academic.Academics" />
+        <activity
+            android:name=".activity.Academic.Scholarship"
+            android:label="Scholarship"
+            android:parentActivityName=".activity.Academic.Academics" />
+        <activity
+            android:name=".activity.Alumni.Executive"
+            android:label="Executive"
+            android:parentActivityName=".activity.Alumni.Alumni" />
+        <activity
+            android:name=".activity.Alumni.Chapters"
+            android:label="Chapters"
+            android:parentActivityName=".activity.Alumni.Alumni" />
+        <activity
+            android:name=".activity.TNP.TNP"
+            android:label="TNP"
+            android:parentActivityName=".activity.Starts" />
+        <activity
+            android:name=".activity.Visit.Movie"
+            android:label="EYLEX"
+            android:parentActivityName=".activity.Visit.Visit" />
+        <activity
+            android:name=".activity.Alumni.Gam"
+            android:label="GAM - 2013"
+            android:parentActivityName=".activity.Alumni.Alumni" />
+        <activity
+            android:name=".activity.TNP.Bro"
+            android:label="Brochure"
+            android:parentActivityName=".activity.TNP.TNP" />
+        <activity
+            android:name=".activity.TNP.STAT"
+            android:label="Placement Statistics"
+            android:parentActivityName=".activity.TNP.TNP" />
+        <activity
+            android:name=".activity.TNP.CONCH"
+            android:label="Contact"
+            android:parentActivityName=".activity.TNP.TNP" />
+        <activity
+            android:name=".activity.TNP.TNPNotice"
+            android:label="Notice Board"
+            android:parentActivityName=".activity.TNP.TNP" />
+        <activity
+            android:name=".activity.TNP.News"
+            android:label="TNP News"
+            android:parentActivityName=".activity.TNP.TNP" />
+        <activity
+            android:name=".activity.TNP.Youtubetnp"
+            android:label="Expressions"
+            android:parentActivityName=".activity.TNP.TNP" />
+        <activity
+            android:name=".activity.TNP.Facebooktnp"
+            android:label="Gyandhara"
+            android:parentActivityName=".activity.TNP.TNP" />
+        <activity
+            android:name=".activity.Academic.Result"
+            android:label="Result"
+            android:parentActivityName=".activity.Academic.Academics" />
+        <activity android:name=".activity.Visit.Train" />
+        <activity android:name=".activity.CLUB.Idea"
+            android:label="Idea Club"
+            android:parentActivityName=".activity.CLUB.Clubs"
+            />
+        <activity android:name=".activity.CLUB.EDP"
+            android:label=" EDP"
+            android:parentActivityName=".activity.CLUB.Clubs"
+
+            />
+        <activity android:name=".activity.CLUB.AVC"
+            android:label="AVC"
+            android:parentActivityName=".activity.CLUB.Clubs"
+
+            ></activity>
+    </application>
+
+</manifest>

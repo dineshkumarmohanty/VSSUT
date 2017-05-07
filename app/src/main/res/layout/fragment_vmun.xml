@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="info.dinesh.mohanty.activity.FEST.Samave"
+    android:background="@color/colorPrimaryDark">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" VSSUT_MUN"
+                android:layout_gravity="center"
+                android:textSize="30dp"
+                android:textColor="#FFFFFF"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/vmun"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="About:\n\nVSSUT_MUN is one of the fastest growing MUN conferences that takes place at VSSUT ,Burla - Odisha's most primitive institution which have a fame of imparting futuristic technical education .Model United Nations, also known as Model UN or MUN, is an educational simulation and academic competition in which students learn about diplomacy, international relations and the United Nations. It involves research, public speaking, debating and writing skills, in addition to critical thinking, teamwork and leadership abilities.\n\n"
+                android:layout_gravity="center"
+
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="In VSSUT_MU 2.0 there were 6 councils:\n\n★ United Nations General Assembly (DISEC)\n★ United Nations Office on Drugs and Crime\n★ United Nations Security Council\n★ United Nations Human Rights Council\n★ United Nation General Assembly (SOCHUM)\n★ United Nations Environment Programme\n\nPhoto(VSSUT_MUN 2.0):\N\N"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mun"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
+

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimaryDark">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            />
+    </android.support.design.widget.AppBarLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="?attr/actionBarSize"
+            android:orientation="vertical"
+            android:weightSum="1"
+            android:background="@color/colorPrimaryDark"
+            android:numColumns="auto_fit"
+            android:columnCount="24"
+            android:rowCount="5"
+            android:textAlignment="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="#FFFFFF"
+                android:text="Click on the hotel to view menu"
+                android:textSize="20dp"
+                android:layout_marginBottom="20dp"/>
+
+            <Button
+                android:id="@+id/btnlazziz"
+                android:textAllCaps="false"
+                android:background="@drawable/buttonborder2"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/lunch"
+                android:text="Lazziz Resturant\nCategory: Lunch/Dinner\nHome Delivery: Available\nContact: 7751908343\nRating:★★★★★"
+                android:layout_marginBottom="10dp"
+                android:padding="10dp"
+                />
+            <Button
+                android:id="@+id/btnkedia"
+                android:textAllCaps="false"
+                android:background="@drawable/buttonborder2"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/lunch"
+                android:text="Kedia's Resturant\nCategory: Lunch/Dinner\nHome Delivery: Available\nContact: 09692043587\nRating:★★★★"
+                android:layout_marginBottom="10dp"
+                android:padding="10dp"
+                />
+            <Button
+                android:id="@+id/btnMaaMetakani"
+                android:textAllCaps="false"
+                android:background="@drawable/buttonborder2"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/lunch"
+                android:text="Maa Metakani Resturant \nCategory: Lunch/Dinner\nHome Delivery: Available\nContact: 8339803434\nRating:★★★★"
+                android:layout_marginBottom="10dp"
+                android:padding="10dp"
+                />
+            <Button
+                android:id="@+id/btnDwaraka"
+                android:textAllCaps="false"
+                android:background="@drawable/buttonborder2"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/lunch"
+                android:text="Dwaraka Resturant \nCategory: Lunch/Dinner\nHome Delivery: Available\nContact: 09692043587\nRating:★★★"
+                android:layout_marginBottom="10dp"
+                android:padding="10dp"
+                />
+            <Button
+                android:id="@+id/btnSahid"
+                android:textAllCaps="false"
+                android:background="@drawable/buttonborder2"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/noodles"
+                android:text="Sahid Fastfood \nCategory: Chinese Fastfood\nHome Delivery: Available\nContact: 9937195071\nRating:★★★★★"
+                android:layout_marginBottom="10dp"
+                android:padding="10dp"
+                />
+            <Button
+                android:id="@+id/btnSwarup"
+                android:textAllCaps="false"
+                android:background="@drawable/buttonborder2"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/noodles"
+                android:text="Swarup Fastfood \nCategory: Chinese Fastfood\nHome Delivery: Available\nContact: 8270469682\nRating:★★★★★"
+                android:layout_marginBottom="10dp"
+                android:padding="10dp"
+                />
+            <Button
+                android:id="@+id/btnGocool"
+                android:textAllCaps="false"
+                android:background="@drawable/buttonborder2"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/cake"
+                android:text="GO COOL \nCategory: Birthday Cakes \nHome Delivery:Available\nContact: 9861252233\nRating:★★★★★"
+                android:layout_marginBottom="10dp"
+                android:padding="10dp"
+                />
+            <Button
+                android:id="@+id/btnIcepoint"
+                android:textAllCaps="false"
+                android:background="@drawable/buttonborder2"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/cake"
+                android:text="Choudhry's Icepoint \nCategory: Birthday Cakes \nHome Delivery: Available\nContact: 9040072269\nRating:★★★★"
+                android:layout_marginBottom="10dp"
+                android:padding="10dp"
+                />
+            <Button
+                android:id="@+id/btnGObe"
+                android:textAllCaps="false"
+                android:background="@drawable/buttonborder2"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/bakery"
+                android:text="GO COOL Bakery\nCategory:Bakery\nHome Delivery:Available\nContact: 9861252233\nRating:★★★★★"
+                android:layout_marginBottom="10dp"
+                android:padding="10dp"
+                />
+            <Button
+                android:id="@+id/btnAFC"
+                android:textAllCaps="false"
+                android:background="@drawable/buttonborder2"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/fries"
+                android:text="AFC Sambalpur\nCategory:Fastfood\nHome Delivery: Available(5PM)\nContact: 9937072269\nRating:★★★★★"
+                android:layout_marginBottom="10dp"
+                android:padding="10dp"
+                />
+            <Button
+                android:id="@+id/btncg"
+                android:textAllCaps="false"
+                android:background="@drawable/buttonborder2"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ch"
+                android:text="Choudhry's Store \nCategory: Chips/Cold drinks \nHome Delivery: Available\nContact: 9040072269\nRating:★★★★★"
+                android:layout_marginBottom="10dp"
+                android:padding="10dp"
+                />
+            <Button
+
+                android:textAllCaps="false"
+                android:background="@drawable/buttonborder2"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginBottom="10dp"
+                android:padding="10dp"
+                />
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+</RelativeLayout>
+
+

@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="info.dinesh.mohanty.fragments.OneFragment"
+    android:background="@color/colorPrimaryDark">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="VISION"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#FFFFFF"
+                android:padding="5dp"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="To emerge as an internationally acclaimed Technical University to impart futuristic technical education and creation of vibrant research enterprise to create quality engineers and researchers, truly world class leader and unleashes technological innovations to serve the global society and improve the quality of life."
+                android:textSize="20dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#FFFFFF"
+                android:padding="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="MISSION"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#FFFFFF"
+                android:padding="5dp"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="The Veer Surendra Sai University of Technology, Odisha, Burla strives to create values and ethics in its products by inculcating depth and intensity in its education standards and need based research through\n\n
+1. Participative learning in a cross-cultural environment that promotes the learning beyond the class room.\n\n2. Collaborative partnership with industries and academia within and outside the country in learning and research.\n\n3. Encouraging innovative research and consultancy through the active participation and involvement of all faculty members.\n\n4. Facilitating technology transfer, innovation and economic development to flow as natural results of research where ever appropriate.\n\n5.Expanding curricula to cater broader perspectives.\n\n6. Creation of service opportunities for upliftment of the society at large."
+                android:textSize="20dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#FFFFFF"
+                android:padding="5dp"/>
+            <TextView
+                android:layout_width="415dp"
+                android:layout_height="match_parent"
+
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#FFFFFF"
+                android:padding="5dp"/>
+            <TextView
+                android:layout_width="415dp"
+                android:layout_height="match_parent"
+
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#FFFFFF"
+                android:padding="5dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="info.dinesh.mohanty.activity.FEST.Samave"
+    android:background="@color/colorPrimaryDark">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hall of Residence"
+                android:layout_gravity="center"
+                android:textSize="30dp"
+                android:textColor="#FFFFFF"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n\nSome of the student residences are:\n\nFor boys:\n\n
+
+★ Atri Hall of Residence (formerly the East Hostel)\n\n
+★ Kratu Hall of Residence (formerly the West Hostel)\n\n
+★ Vasistha Hall of Residence (formerly the North Hostel)\n\n
+★ Marichi Hall of Residence (formerly the South Hostel)\n\n
+★ Pulastya Hall of Residence (for first year students)\n\n
+★ Pulaha Hall of Residence\n\n
+For ladies:\n\n
+
+★ Arundhati Hall of Residence (for third year and fourth year students)\n\n
+★ Vishakha Hall of Residence(for second year students)\n\n
+★ Anuradha Hall of Residence(for first year students)\n\n
+★ Angira Hall of Residence (PG Hostel)\n\n
+★ Rohini Hall of Residence\n\n"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
+

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="info.dinesh.mohanty.activity.Academic.Regulations"
+    android:background="@color/colorPrimaryDark">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        />
+    </android.support.design.widget.AppBarLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="?attr/actionBarSize"
+            android:orientation="vertical"
+            android:weightSum="1"
+            android:background="@color/colorPrimaryDark"
+            android:numColumns="auto_fit"
+            android:columnCount="24"
+            android:rowCount="5"
+            android:textAlignment="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="#FFFFFF"
+                android:text="New Syllabus(2015 Onwards)"
+                android:textSize="30dp"
+                android:layout_marginBottom="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="#FFFFFF"
+                android:text="(Only for 1st year and 2nd year)"
+                android:textSize="20dp"
+                android:layout_marginBottom="20dp"/>
+
+
+            <Button
+                android:textAllCaps="false"
+                android:id="@+id/btnSArchitecture"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Architecture"
+                android:background="@drawable/button_border"
+                android:textSize="25dp"
+                android:drawableLeft="@drawable/pdfgreen"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="10dp"
+                />
+            <Button
+                android:textAllCaps="false"
+                android:id="@+id/btnSChemical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Chemical Engineering"
+                android:background="@drawable/button_border"
+                android:textSize="25dp"
+                android:drawableLeft="@drawable/pdff"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="10dp"
+                />
+            <Button
+                android:textAllCaps="false"
+                android:id="@+id/btnSCivil"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Civil Engineering"
+                android:background="@drawable/button_border"
+                android:textSize="25dp"
+                android:drawableLeft="@drawable/pdfgreen"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="10dp"
+                />
+            <Button
+                android:textAllCaps="false"
+                android:id="@+id/btnSComputer"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Computer Science"
+                android:background="@drawable/button_border"
+                android:textSize="25dp"
+                android:drawableLeft="@drawable/pdff"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="10dp"
+                />
+            <Button
+                android:textAllCaps="false"
+                android:id="@+id/btnSEEE"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Electrical and Electronics "
+                android:background="@drawable/button_border"
+                android:textSize="25dp"
+                android:drawableLeft="@drawable/pdfgreen"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="10dp"
+                />
+            <Button
+                android:textAllCaps="false"
+                android:id="@+id/btnSEE"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Electrical Engineering"
+                android:background="@drawable/button_border"
+                android:textSize="25dp"
+                android:drawableLeft="@drawable/pdff"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="10dp"
+                />
+            <Button
+                android:textAllCaps="false"
+                android:id="@+id/btnSETC"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Electronics and Telecommunication"
+                android:background="@drawable/button_border"
+                android:textSize="25dp"
+                android:drawableLeft="@drawable/pdfgreen"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="10dp"
+                />
+            <Button
+                android:textAllCaps="false"
+                android:id="@+id/btnSIT"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Information Technology"
+                android:background="@drawable/button_border"
+                android:textSize="25dp"
+                android:drawableLeft="@drawable/pdff"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="10dp"
+                />
+            <Button
+                android:textAllCaps="false"
+                android:id="@+id/btnSMechanical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Mechanical Engineering"
+                android:background="@drawable/button_border"
+                android:textSize="25dp"
+                android:drawableLeft="@drawable/pdfgreen"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="10dp"
+                />
+            <Button
+                android:textAllCaps="false"
+                android:id="@+id/btnSMME"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Metallurgy and Materials "
+                android:background="@drawable/button_border"
+                android:textSize="25dp"
+                android:drawableLeft="@drawable/pdff"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="10dp"
+                />
+            <Button
+                android:textAllCaps="false"
+                android:id="@+id/btnSProduction"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Production Engineering"
+                android:background="@drawable/button_border"
+                android:textSize="25dp"
+                android:drawableLeft="@drawable/pdfgreen"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="10dp"
+                />
+            <Button
+                android:textAllCaps="false"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_border"
+                android:textSize="25dp"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="10dp"
+                />
+
+
+                </LinearLayout>
+    </ScrollView>
+    </RelativeLayout>
+
+
+
+

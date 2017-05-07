@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="info.dinesh.mohanty.activity.Academic.Regulations"
+    android:background="@color/colorPrimaryDark">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+    </android.support.design.widget.AppBarLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="?attr/actionBarSize"
+            android:orientation="vertical"
+            android:weightSum="1"
+            android:background="@color/colorPrimaryDark"
+            android:numColumns="auto_fit"
+            android:columnCount="24"
+            android:rowCount="5"
+            android:textAlignment="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="#FFFFFF"
+                android:text="Rules and Regulations"
+                android:textSize="30dp"
+                android:layout_marginBottom="20dp"/>
+
+
+            <Button
+                android:textAllCaps="false"
+                android:id="@+id/btnRegBtech"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Regulations for B.Tech."
+                android:background="@drawable/button_border"
+                android:textSize="25dp"
+                android:drawableLeft="@drawable/pdff"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="10dp"
+                />
+            <Button
+                android:textAllCaps="false"
+                android:id="@+id/btnRegMtech"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Regulations for M.Tech."
+                android:background="@drawable/button_border"
+                android:textSize="25dp"
+                android:drawableLeft="@drawable/pdfgreen"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="10dp"
+                />
+
+            <Button
+                android:textAllCaps="false"
+                android:id="@+id/btnRegMsc"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Regulations for M.Sc."
+                android:background="@drawable/button_border"
+                android:textSize="25dp"
+                android:drawableLeft="@drawable/pdff"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="10dp"
+                />
+            <Button
+                android:textAllCaps="false"
+                android:id="@+id/btnRegMca"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Regulations for  MCA"
+                android:background="@drawable/button_border"
+                android:textSize="25dp"
+                android:drawableLeft="@drawable/pdfgreen"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="10dp"
+                />
+
+            <Button
+                android:textAllCaps="false"
+                android:id="@+id/btnRegPhd"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Regulations for Ph.D."
+                android:background="@drawable/button_border"
+                android:textSize="25dp"
+                android:drawableLeft="@drawable/pdff"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="10dp"
+                />
+            <Button
+
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:background="@color/colorPrimaryDark"
+                android:textSize="25dp"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="10dp"
+                />
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+</RelativeLayout>

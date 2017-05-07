@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="info.dinesh.mohanty.fragments.OneFragment"
+    android:background="@color/colorPrimaryDark">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Achievements"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#FFFFFF"
+                android:padding="5dp"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="★Bodhisattwa Sanghapriya won Accenture-Yahoo Innovation Jockey award under best innovation for investment category with 6 month incubation in Accenture and a pre-placement offer from Accenture\n\n★VSSUT Student Satellite Team represents India in Space Science at International Innovation Festival-2016\n\n★ VSSUT Student Sanjog Kumar Panda Received Young Researcher Award 2015 by Springer and Youth Innovation Award by OSIC and MSME \n\n★ VSSUT second year Electrical and Electronics Engineering student Bodhisattwa Sanghapriya received Odisha Youth Innovation Award-2016 from Chief Minister of Odisha.\n\n
+★ VSSUT won the TATA Crucible Business Quiz 2015 Ranchi edition and finished joint third at its Eastern Zone Finals.\n\n
+★  India Rank 2 and 3 for 3 consecutive years in GATE.\n\n
+★ 13th position in ACM Programming Contest - 2002 held at IIT Kanpur.\n\n
+★ Team Veerracerss secured 11th rank among 174 teams in the virtuals of SUPRA-SAE(a national event) virtual simulation round, held at KIIT University(2013).\n\n
+★ Team VEERss Racing ranked 51st in 2011 and rank 55th in 2012 in BAJA SAE.\n\n
+★ Team VEERss Racing ranked AIR 4th overall in 2016 and rank 12th in 2015 in BAJA STUDENT INDIA\n\n
+★ VSSUT Team Robocon ranked 4th in 2011 in ABU Robocon Indian.\n\n
+★ VSSUT Team Robocon ranked 27th in 2015 in Robocon India out of 85 teams.\n\n
+★ Team Veerracerss secured 47th rank among 110 teams in the Main event of SUPRA-SAEINDIA 2015 held at MMRT Chennai.\n\n
+★ VSSUT Team Robocon ranked 20th in 2016 in ABU Robocon India by beating 7 times champion NIRMA University.\n\n
+★ VSSUT Team robocon ranked 3rd in ROBOCON MATLAB Compettition.\n\n"
+                android:textSize="20dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#FFFFFF"
+                android:padding="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#FFFFFF"
+                android:padding="5dp"/>
+            <TextView
+                android:layout_width="415dp"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#FFFFFF"
+                android:padding="5dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
+

@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="info.dinesh.mohanty.fragments.OneFragment"
+    android:background="@color/colorPrimaryDark">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="FROM UCE TO VSSUT"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#FFFFFF"
+                android:padding="5dp"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Established on 12th Aug. 1956, at Burla in the name of University College of Engineering (UCE), the first engineering college was functioning as a constituent college of Utkal University, Bhubaneswar. UCE got transferred to the administrative control of Sambalpur University in January 1967 and later on to Biju Patnaik University of Technology (BPUT) by BPUT Act-2002 in July, 2002.\n\nThe Veer Surendra Sai University of Technology (VSSUT) Odisha was formed by Orissa Act 9 of 2009 by converting University College of Engineering (UCE), Burla to a non-affiliating Unitary University and came into force by issue of notification by the Industries Department, Government of Odisha from 1st day of July 2009(Vide memo No.IV/TTI-33/2009-8553 and 8564 dtd.10th June 2009. The 1st Statutes of VSSUT, Burla 2010 has been approved by the Odisha Government vide Industry Department notification No.V-FE-II-01/2010/8697 dated 21st June, 2010. This State Government University is also recognized by University Grants Commission (UGC), New Delhi vide UGC letter No.. F.9-36/2009(CPP-I) dtd.5th Jan 2010. The University is empowered to award degrees as specified by the UGC under section 22 of the UGC Act. The University has been declared eligible to receive central assistance under Section 12B of the UGC Act vide letter F.No.9-36/2009(CPP-I/PU) dated 8th November, 2012."
+                android:textSize="20dp"
+
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#FFFFFF"
+                android:padding="5dp"
+                android:lineSpacingExtra="3dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#FFFFFF"
+                android:padding="5dp"/>
+            <TextView
+                android:layout_width="415dp"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#FFFFFF"
+                android:padding="5dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,215 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+    </android.support.design.widget.AppBarLayout>
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="?attr/actionBarSize"
+            android:orientation="vertical"
+            android:weightSum="1"
+            android:background="@color/colorPrimaryDark"
+            android:numColumns="auto_fit"
+            android:columnCount="24"
+            android:rowCount="5"
+            android:textAlignment="center"
+            >
+            <Button
+                android:id="@+id/btnChemical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Chemical"
+                android:textSize="20sp"
+                android:drawableLeft="@drawable/che"
+                android:background="@drawable/button_border"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="10dp"/>
+
+            <Button
+                android:id="@+id/btnChemistry"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Chemistry"
+                android:textSize="20sp"
+                android:drawableLeft="@drawable/chemistry"
+                android:background="@drawable/button_border"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="10dp"/>
+
+            <Button
+                android:id="@+id/btnCivil"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Civil Engineering"
+                android:textSize="20sp"
+                android:drawableLeft="@drawable/civil"
+                android:background="@drawable/button_border"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="10dp"/>
+
+
+
+
+            <Button
+            android:id="@+id/btnComputer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Computer Science and IT"
+            android:textSize="20sp"
+            android:drawableLeft="@drawable/computerit"
+            android:background="@drawable/button_border"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="10dp"/>
+            <Button
+                android:id="@+id/btnEEE"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Electrical and EEE"
+                android:textSize="20sp"
+                android:drawableLeft="@drawable/electrical"
+                android:background="@drawable/button_border"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="10dp"/>
+            <Button
+                android:id="@+id/btnETC"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Electronics and Tele-communication"
+                android:textSize="20sp"
+                android:drawableLeft="@drawable/etc"
+                android:background="@drawable/button_border"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="10dp"/>
+            <Button
+                android:id="@+id/btnHuman"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Humanities"
+                android:textSize="20sp"
+                android:drawableLeft="@drawable/humanities"
+                android:background="@drawable/button_border"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="10dp"/>
+            <Button
+                android:id="@+id/btnMath"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Mathematics"
+                android:textSize="20sp"
+                android:drawableLeft="@drawable/mathematics"
+                android:background="@drawable/button_border"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="10dp"/>
+            <Button
+                android:id="@+id/btnMecha"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Mechnical"
+                android:textSize="20sp"
+                android:drawableLeft="@drawable/mechanical"
+                android:background="@drawable/button_border"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="10dp"/>
+            <Button
+                android:id="@+id/btnMetal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Metallurgy and Materials"
+                android:textSize="20sp"
+                android:drawableLeft="@drawable/metallurgy"
+                android:background="@drawable/button_border"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="10dp"/>
+            <Button
+                android:id="@+id/btnPhy"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Physics"
+                android:textSize="20sp"
+                android:drawableLeft="@drawable/physics"
+                android:background="@drawable/button_border"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="10dp"/>
+            <Button
+                android:id="@+id/btnPro"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Production"
+                android:textSize="20sp"
+                android:drawableLeft="@drawable/production"
+                android:background="@drawable/button_border"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="10dp"/>
+            <Button
+            android:id="@+id/btnArchitecture"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Architecture"
+            android:textSize="20sp"
+            android:drawableLeft="@drawable/architecture"
+            android:background="@drawable/button_border"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="10dp"/>
+            <Button
+                android:id="@+id/btnMCA"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="MCA"
+                android:textSize="20sp"
+                android:drawableLeft="@drawable/mca"
+                android:background="@drawable/button_border"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="10dp"/>
+
+            <Button
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="10dp"/>
+            <Button
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="10dp"/>
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</android.support.design.widget.CoordinatorLayout>

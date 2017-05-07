@@ -1,0 +1,90 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+    </android.support.design.widget.AppBarLayout>
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnPlaces"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Places"
+            android:textSize="25sp"
+            android:drawableLeft="@drawable/places"
+            android:background="@drawable/button_border"
+            android:textColor="#FFFFFF"
+            android:layout_margin="10dp"/>
+
+
+
+        <Button
+            android:id="@+id/btnBus"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Bus From Burla"
+            android:textSize="25dp"
+            android:drawableLeft="@drawable/bus2"
+            android:background="@drawable/button_border"
+            android:textColor="#FFFFFF"
+            android:layout_margin="10dp"
+            />
+
+        <Button
+            android:id="@+id/btnIconTabs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Book Bus Ticket"
+            android:textSize="25dp"
+            android:drawableLeft="@drawable/ticket"
+            android:background="@drawable/button_border"
+            android:textColor="#FFFFFF"
+            android:layout_margin="10dp"/>
+        <Button
+            android:id="@+id/btnIconTabs1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Trains From Hirakud"
+            android:textSize="25dp"
+            android:drawableLeft="@drawable/train"
+            android:background="@drawable/button_border"
+            android:textColor="#FFFFFF"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:id="@+id/btnCustomIconTabs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:background="@color/colorPrimaryDark"/>
+        <Button
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:background="@color/colorPrimaryDark"/>
+    </LinearLayout>
+    </ScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

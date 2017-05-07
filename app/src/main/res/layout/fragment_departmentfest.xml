@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="info.dinesh.mohanty.activity.FEST.Samave"
+    android:background="@color/colorPrimaryDark">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Various departments have their individual festivals/annual meets. Annual departmental festivals include:"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"/>
+            <Button
+                android:textAllCaps="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Resonance\nDepartment of Electrical Engineering and EEE"
+                android:background="@drawable/buttonborder2"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:drawableLeft="@drawable/resonancey"
+                android:layout_marginBottom="10dp"/>
+           <Button
+               android:textAllCaps="false"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Srujan\nDepartment Of Computer Science and IT"
+               android:background="@drawable/buttonborder2"
+               android:textColor="#FFFFFF"
+               android:textSize="20dp"
+               android:drawableLeft="@drawable/sru"
+               android:layout_marginBottom="10dp"/>
+
+            <Button
+                android:textAllCaps="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sthaapna\n Department of Civil Engineering"
+                android:background="@drawable/buttonborder2"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:drawableLeft="@drawable/sthapana"
+                android:layout_marginBottom="10dp"/>
+            <Button
+                android:textAllCaps="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Techtronix\n Department of Electronics and Telecommunication Engineering"
+                android:background="@drawable/buttonborder2"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:drawableLeft="@drawable/technotrix"
+                android:layout_marginBottom="10dp"/>
+            <Button
+                android:textAllCaps="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gamut\n Department of Production Engineering"
+                android:background="@drawable/buttonborder2"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:drawableLeft="@drawable/gamut"
+                android:layout_marginBottom="10dp"/>
+            <Button
+                android:textAllCaps="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Innova\n Department of Mechanical Engineering"
+                android:background="@drawable/buttonborder2"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:drawableLeft="@drawable/innova"
+                android:layout_marginBottom="10dp"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
+

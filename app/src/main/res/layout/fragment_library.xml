@@ -1,0 +1,103 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="info.dinesh.mohanty.activity.FEST.Samave"
+    android:background="@color/colorPrimaryDark">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Central Library"
+                android:layout_gravity="center"
+                android:textSize="30dp"
+                android:textColor="#FFFFFF"
+               android:paddingBottom="10dp"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Timing:\n\nThe Library remains open from 10 AM to 8PM on all working days of the week except in the hot summer months (April and May) during which there is a break from 1 PM to 2.30 PM"
+                android:background="@drawable/buttonborder2"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="10dp"
+                android:padding="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="General Information:\n\nThe University Library is the largest technical library of the State. A new separate library building has come up with the assistance from U.G.C. and State Govt. and the library has started functioning in its newly constructed building since July, 1997.\n\nOur University is now a member of Indian National Digital Library in Engineering Science and Technology with financial support provided by the All India Council of Technical Education. As such online access to the journals of ASCE. ASME and IEL is available to all the members of the Library. Further under the auspices of the INDEST we have access to JET (J-Gate Engineering and Technology).\n\nLoan Privilege:\n\nUndergraduate: 2 Books for 2 weeks\n\nPostGraduates: 4 Books for 1 week\n\nOthers: 2 Books for 2 weeks\n\nGeneral Rules:\n\n
+
+1. The members will get, at a time of membership, a borrower's card. On each occasion, a book is borrowed or returned, the borrower's card is to be presented at the issue counter for necessary entry.\n\n
+
+2. Borrowers card will be issued to the students on application till 2 months from the date of admission and after that Rs. 10/- will be levied for late application.\n\n
+
+3. Books on loan with members can be recalled by the library at any time.\n\n
+
+4. Manuscripts, reference books, damaged books, rare books, standard books are not issued ordinarily on loan.\n\n
+
+5. Bound volume periodicals are issued to teachers only for a maximum periods of 7 days. Unbound journals are not issued to any members.\n\n
+
+6. Before entering the library the gate register is to singed and borrower's card shown at the counter. Private books and personal belongings should be deposited at the property counter and token obtained from them. In no case briefcases or bags or purse are allowed inside the library.\n\n
+
+7. Cards are not transferable, Sub lending of books is not permissible.\n\n
+
+8. Borrowers must satisfy themselves about the physical condition of the book before borrowing. Otherwise they will be held responsible for any damage or mutilating noticed at the time or returning.\n\n
+
+9. Library books after return should be retained for 24 hours in the library for the purpose of checking of damage claim etc. before they are issued.\n\n
+
+10. Loss or misuse of cards; Special care should be taken that the membership card is not misplaced or lost. All losses are to be reported immediately to the library. Duplicate card will be issued on payment of Rs. 10/-. The member however will continue to be responsible for any loss which the library may suffer through the loss or misuse of card.\n\n
+
+11. Change of address : Members should keep the library informed of any change of address during the period of membership.\n\n
+
+12. No marginal or other notes shall be made in the library books nor shall any page of pictures and charts be removed or torned. In such a case the borrowers may be asked to replace the book or pay in cash an amount equal to five the present cost of the book. The same procedure will also be followed in case of loss.\n\n
+
+13. All those who may happen to be inside the library or it's neighbourhood are to observe strict silence.\n\n
+
+14. Library premises should not be used for any purpose other than reading and taking notes.\n\n
+
+15. Spitting, smoking and sleeping inside the library are strictly forbidden.\n\n
+
+16. A person admitted as a member of the library is supposed to have the knowledge of the above. Ignorance of the rules will be no excuse.\n\n
+
+17. Clearance Certificate : The membership card is the property of library and is to be returned before applying for Clearance Certificate.\n\n
+
+18. Rules regarding recovery and replacement of books :\n
+
+a. In case of availability of the present cost and books purchased during last five years, double of the purchased cost shall be levied.\n
+b. In case of highly important technical books/Journals purchased before 5 years, it will be insisted to replace the same, otherwise 10 times of the purchase value of the same shall be recovered.\n
+c. For less important books of other fields purchased before 5 years, 5 times of the purchase cost shall be recovered from the defaulter.\n\n
+19. Overdue charges for late return of books : An overdue charge of Rs. 0.20 Paise per day per book shall be realised if the books are returned beyond the maximum allowable period of retention.\n\n"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Other Facilities:\n\n★ Text Book Library\n★ General Book Bank\n★ SC/ST Book Bank\n★ Journal Section\n★ Reprographic Facilities\n\n"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

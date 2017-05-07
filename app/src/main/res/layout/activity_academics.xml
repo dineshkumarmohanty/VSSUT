@@ -1,0 +1,172 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+    </android.support.design.widget.AppBarLayout>
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:orientation="vertical"
+        android:background="@color/colorPrimaryDark"
+android:paddingBottom="10dp"
+       >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            >
+            <Button
+                android:id="@+id/btnRegulation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryDark"
+                android:drawableTop="@drawable/regulation"
+                android:layout_gravity="center"
+                android:textColor="#FFFFFF"
+                android:padding="10dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:text="            Regulation     "/>
+
+            <Button
+                android:id="@+id/btnAcademiccalander"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryDark"
+                android:drawableTop="@drawable/calander"
+                android:layout_gravity="right"
+                android:textColor="#FFFFFF"
+                android:padding="10dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:text="        Calander        "/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            >
+            <Button
+                android:id="@+id/btnSyllabus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryDark"
+                android:drawableTop="@drawable/syllabus"
+                android:layout_gravity="center"
+                android:textColor="#FFFFFF"
+                android:padding="10dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:text="          Syllabus          "/>
+
+            <Button
+                android:id="@+id/btnHolidayList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryDark"
+                android:drawableTop="@drawable/holodayicon"
+                android:layout_gravity="right"
+                android:textColor="#FFFFFF"
+                android:padding="10dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:text="   Holiday List      "/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            >
+            <Button
+                android:id="@+id/btnResult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryDark"
+                android:drawableTop="@drawable/result"
+                android:layout_gravity="center"
+                android:textColor="#FFFFFF"
+                android:padding="10dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:text="       Result Section    "/>
+
+            <Button
+                android:id="@+id/btnCourses"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryDark"
+                android:drawableTop="@drawable/course"
+                android:layout_gravity="right"
+                android:textColor="#FFFFFF"
+                android:padding="10dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:text="        Courses        "/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            >
+            <Button
+                android:id="@+id/btnScholarship"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryDark"
+                android:drawableTop="@drawable/edpcell"
+                android:layout_gravity="center"
+                android:textColor="#FFFFFF"
+                android:padding="10dp"
+                android:text="         Scholarship      "
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+
+
+        </RelativeLayout>
+        <Button
+
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+
+            android:textSize="25sp"
+            android:background="@color/colorPrimaryDark"
+
+            android:textColor="#FFFFFF"/>
+
+
+
+    </LinearLayout>
+    </ScrollView>
+
+
+</android.support.design.widget.CoordinatorLayout>

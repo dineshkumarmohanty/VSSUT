@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimaryDark">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="ADMINISTRATION"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#FFFFFF"
+                android:padding="5dp"
+                android:layout_gravity="center"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Dean, Faculty and Planning:\n      Phone: +919861142838\n\n2.Dean, Students' Welfare:\n     Phone:0663-2430549\n\n3.  Dean, CDCE:\n      Phone:0663-2431026\n\n4. Dean, PGS and R:\n      Phone:+91-9439730360\n\n5. Dean, Academic Affairs:\n     Phone:+91-9437550677\n\n6. Dean, SRIC:\n     Phone: 09861238403\n\n7.PIC training Placement:\n      Phone: 09861263248\n\n8. Controller of Examinations:\n     Phone:0663-2430096\n\n9.  Registarar I/C.:\n      Phone:+91-9937305002\n\n10. Coordinator , TEQIP:\n      Phone:+91-9438251162\n\n11. PIO RTI Cell:\n     Phone:9437177717\n\n12. PIC Central Library:\n      Phone: +919437083891\n\n13.PIC CIF:\n      Phone: +91 9437577560\n\n14. PIC Central Transport:\n     Phone:+91-82607-43222\n\n15.  PIC Civil works:\n      Phone:+91-9437767331\n\n16. PIC Electrical Maintainance:\n      Phone:+919438388655\n\n17. PIC Guesthouse:\n     Phone:	9437336969\n\n18. PIC Telephone:\n     Phone:+91-	9438179866\n\n19. PIC Central Stores:\n      Phone: +91 +919438640496\n\n20. PIC University Seminar:\n     Phone:+91 9437406971\n\n21.  PIC Canteen Committe.:\n      Phone:	+919437083891\n\n22. Coordinator to Dean Students' Welfare: DR PRIYARANJAN MOHAPATRA\n      Phone:9437027001\n\n "
+
+
+
+
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#FFFFFF"
+                android:padding="5dp"
+                android:lineSpacingExtra="10dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#FFFFFF"
+                android:padding="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#FFFFFF"
+                android:padding="5dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="info.dinesh.mohanty.activity.Academic.Regulations"
+    android:background="@color/colorPrimaryDark">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            />
+    </android.support.design.widget.AppBarLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="?attr/actionBarSize"
+            android:orientation="vertical"
+            android:weightSum="1"
+            android:background="@color/colorPrimaryDark"
+            android:numColumns="auto_fit"
+            android:columnCount="24"
+            android:rowCount="5"
+            android:textAlignment="center"
+            android:padding="15dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="#FFFFFF"
+                android:text="Auto Drivers"
+                android:textSize="30dp"
+                android:layout_marginBottom="20dp"/>
+
+            <Button
+                android:textAllCaps="false"
+                android:background="@drawable/button_border"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/autodriver"
+                android:text="Srikant Kumar\nMob:9132208002"/>
+            <Button
+                android:textAllCaps="false"
+                android:background="@drawable/button_border"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/autodriver"
+                android:text="Ashok Kumar Pradhan\nMob:9438205635"/>
+
+            <Button
+                android:textAllCaps="false"
+                android:background="@drawable/button_border"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/autodriver"
+                android:text="Prakash Chandra sahu\nMob:8093324259"/>
+            <Button
+                android:textAllCaps="false"
+                android:background="@drawable/button_border"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/autodriver"
+                android:text="Satya Kumar \nMob:9439211840"/>
+            <Button
+                android:textAllCaps="false"
+                android:background="@drawable/button_border"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/autodriver"
+                android:text="Roshan Kumar\nMob:9040919892"/>
+
+            <Button
+                android:textAllCaps="false"
+                android:background="@drawable/button_border"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/autodriver"
+                android:text="Biren Behera\nMob:9853343993"/>
+            <Button
+                android:textAllCaps="false"
+                android:background="@drawable/button_border"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/autodriver"
+                android:text="Arjun Kumar pattnaik\nMob:9937267970"/>
+
+            <Button
+                android:textAllCaps="false"
+                android:background="@drawable/button_border"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/autodriver"
+                android:text="Laxman Sahu\nMob:9777065442"/>
+            <Button
+                android:textAllCaps="false"
+                android:background="@drawable/button_border"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/autodriver"
+                android:text="S K Tandi\nMob:9937577446"/>
+
+
+
+
+            <Button
+
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:background="@color/colorPrimaryDark"
+                android:textSize="25dp"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="10dp"
+                />
+
+            <Button
+
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:background="@color/colorPrimaryDark"
+                android:textSize="25dp"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="10dp"
+                />
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+</RelativeLayout>
+

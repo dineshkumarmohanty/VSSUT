@@ -1,0 +1,139 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+    </android.support.design.widget.AppBarLayout>
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="?attr/actionBarSize"
+            android:orientation="vertical"
+            android:weightSum="1"
+            android:background="@color/colorPrimaryDark"
+            android:numColumns="auto_fit"
+            android:columnCount="24"
+            android:rowCount="5"
+            android:textAlignment="center"
+            android:padding="5dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Mechanical Engineering"
+                android:textColor="#FFFFFF"
+                android:textSize="35dp"/>
+            <Button
+                android:textAllCaps="false"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonborder2"
+                android:drawableLeft="@drawable/mechanical"
+                android:text="HOD Mechanical Engineering\nName: Dr. Bibhuti Bhusan Pani\nEmail:	bibhuti89@yahoo.co.in\nPhone: +91-8763653340"
+                android:textColor="#FFFFFF"
+                android:padding="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="About:\n\nMechanical Engineering is a branch of engineering and technology, which deals with the favorable application of the laws of nature in micro/macro level. In the micro level the effect of quanta of energy bundle prompts the development of new areas of study, such as the nuclear fission/fusion to the generation of electricity and power without disrupting the eco-system. Development of power from both conventional and non-conventional sources of nature breeds the Power Plants. Then, the macro level analysis creates the opportunity to study the material and its properties which leads to the science and art on designing prospects. For this reason, our faculties are imparting some fundamental knowledge to all students enrolling in engineering.\nDuring the under graduate study we inculcate the basic fundamentals of engineering to ensure that a young brain could allow to understand any thing happening under this solar system.Hence, someone will visualize the breadth and length of Mechanical Engineering. After that, the Post Graduate (PG) study enables one to educate himself to unveil the secrets of natural laws in a particular area, so that it promotes a skilled professional. The Doctor in Philosophy (Ph D) in this branch opens a mindset to understand, analyze and answer the questions ‘How and Why’ in a particular focused area. In other words the in depth study starts only after graduation level, which aims to foster awareness among the budding technocrats, researchers and scientists.\nThe curriculum of this branch is designed and furnished by seeking the most recent trends to keep pace with international standard. The opportunity of up gradation and revision of curriculum by peer groups enables the engineering graduates of our branch to sustain in any situations in fast changing scenarios. For this reason, our department is recently accredited by the peers of AICTE team for 5 years from 2006. During last 5 decades, this branch produced high standard self motivated professionals (around 3500) of this land to serve the humanity both nationally and internationally at par excellence.\n\nVision :\n\nMechanical Engineering Department of VSSUT Burla strives to be recognized globally for imparting outstanding technical education and research leading to well qualified truly world class leaders and unleashes technological innovations to serve the global society with an ultimate aim to improve the quality of life. \n\nMission :\n\n
+Mechanical Engineering Department of VSSUT Burla strives to create world class Mechanical Engineers by:\n
+• Imaprting quality education to its students and enhancing their skills.\n
+• Encouraging innovative research and consultancy by establishing the state of the art research facilities through which the faculty members and engineers from the nearby industries can actively utilize the established the research laboratories.\n
+• Expanding curricula as appropriate to include broader prospective.\n
+• Establishing linkages with world class R and D organizations and leading educational institutions in Indian and abroad for excelling in teaching, research and consultancy.\n
+• Creation of service opportunities for the upliftment of society at large.\n"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                >
+                <Button
+                    android:id="@+id/btnMecha1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimaryDark"
+                    android:drawableTop="@drawable/faculties"
+                    android:layout_gravity="center"
+                    android:textColor="#FFFFFF"
+                    android:padding="10dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"
+                    android:text="Faculties"
+                    />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:id="@+id/btnMecha2"
+                    android:background="@color/colorPrimaryDark"
+                    android:textColor="#FFFFFF"
+                    android:padding="10dp"
+                    android:drawableTop="@drawable/question"
+                    android:text="Question"
+
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+                <Button
+                    android:id="@+id/btnMecha3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimaryDark"
+                    android:drawableTop="@drawable/note"
+                    android:text="Notes"
+                    android:layout_gravity="right"
+                    android:textColor="#FFFFFF"
+                    android:padding="10dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true" />
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:background="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</android.support.design.widget.CoordinatorLayout>
+
+
+
+
+

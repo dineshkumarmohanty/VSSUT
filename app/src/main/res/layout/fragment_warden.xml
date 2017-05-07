@@ -1,0 +1,114 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimaryDark">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Wardens"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#FFFFFF"
+                android:padding="5dp"
+                android:layout_gravity="center"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.  Dr. Achyut Kumar Panda - Marichi Hall of Residence	- 9439207016\n\n
+2.  Dr. Padmanav Dash - Atri Hall of Residence -	9439207010\n\n
+3.  Mr. Soubhagya Kumar Panigrahi - Kratu Hall of Residence	- 9439207012\n\n
+4.  Mrs. Santi Behera -	Arundhati Hall of Residence	- 9439207018\n\n
+5.  Dr. Sasmita Kumari Padhy -	Anuradha Hall of Residence -	9439207021\n\n
+6.  Dr. Kamal Pal -	Vasistha Hall of Residence	- 9439207014\n\n
+7.  Dr. Suvasini Panigrahi	- Visakha Hall of Residence	- 9439207002\n\n
+8.  Dr. Banaja Mohanty - Angira Hall of Residence	- 9439207004\n\n
+9.  Dr. Sushanta Kumar Paikray -	Pulatya Hall of Residence	- 9439207006\n\n
+10.  Dr. Sucheta Panda -	Rohini Hall of Residence -	9437342871\n\n
+11.  Dr  Rakesh Roshan Dash	- Pulaha Hall of Residence -	8280122184\n\n "
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#FFFFFF"
+                android:padding="5dp"
+                android:lineSpacingExtra="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Asst. Warden "
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#FFFFFF"
+                android:padding="5dp"
+                android:layout_gravity="center"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Dr. Saroj Kumar Padhan	- Marichi Hall of Residence	 - 9439207017\n\n
+2. Mr. Sanjaya Kumar Panda	- Atri Hall of Residence - 	9439207011\n\n
+3. Mr. Sujaya Kumar Sathua -	Kratu Hall of Residence	- 9439207013\n\n
+4. Mrs. Etuari Oram	- Arundhati Hall of Residence	- 9439207019\n\n
+5. Ms  Mamun Mishra -	Anuradha Hall of Residence	- 9439207022\n\n
+6. Dr. Mihir Kumar Sutar -	Vasistha Hall of Residence - 9439207015\n\n
+7. Mr. Bibhuti Prasad Sahoo	- Visakha Hall of Residence -	9439207003\n\n
+8. Mr. Goutam Behera - Angira Hall of Residence	- 9439207005\n\n
+9. Dr.  Ganeswar Nath	- Pulastya Hall of Residence -	9439207006\n\n
+10. Ms. Bineeta Soreng	- Rohini Hall of Residence	- 9439780542\n\n
+11. Mr. Gyanaranjan Shial -	Pulaha Hall of Residence -	9757019106 \n\n"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#FFFFFF"
+                android:padding="5dp"
+                android:lineSpacingExtra="10dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#FFFFFF"
+                android:padding="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#FFFFFF"
+                android:padding="5dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
+

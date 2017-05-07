@@ -1,0 +1,136 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+    </android.support.design.widget.AppBarLayout>
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="?attr/actionBarSize"
+            android:orientation="vertical"
+            android:weightSum="1"
+            android:background="@color/colorPrimaryDark"
+            android:numColumns="auto_fit"
+            android:columnCount="24"
+            android:rowCount="5"
+            android:textAlignment="center"
+            android:padding="5dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Electronics and Tele-communication"
+                android:textColor="#FFFFFF"
+                android:textSize="35dp"/>
+            <Button
+                android:textAllCaps="false"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonborder2"
+                android:drawableLeft="@drawable/etc"
+                android:text="HOD Electronics and Tele-communication\nName: Dr. Debasis Mishra\nEmail: head_eltc@vssut.ac.in\nPhone: 9438179866"
+                android:textColor="#FFFFFF"
+                android:padding="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="About:\n\n Electronics, particularly computer usage coupled with recent space age, endeavours has by this time already crept into every sphere of human activities. Every industry, institution and organization feels the need of an Electronics Engineer and a Computer specialist. Advanced countries in the world have gone to such depths of Electronics today that an Electronics Engineer is indispensable in every front. Opportunity in this highly sophisticated and advanced branch of engineering is just immense. Keeping in view the need of the day, the Electronics and Telecommunication Engineering Department of VSSUT, BURLA offers quite an attractive up-to-date 4 year B.Tech Degree course, 2 year M.Tech Degree course in Communication System Engineering and PhD in the subject. The students graduated from this department are now well-placed in important National and International organizations. The department is proposing to start a new M.Tech Course in VLSI Signal Processing from next academic session.The department organized National Conference, Symposia, Seminars, Exhibitions and Short term courses on advanced topics. The students of this department have own distinctions in All India Technical Students Meet for their technical paper presentation.\n\nVision:\n\nDeveloping new ideas in the field of communication to enable students to learn new technologies, assimilate appropriate skills and deliver meaningful services to the global society and improve the quality of life by training them with strength of character, leadership and self-attainment.\n\nMission:\n\nImparting futuristic technical education to the students.\n
+• Promoting active role of Industry in student curriculum, projects, R and D and placements.\n
+• Organizing collaborative academic and non-academic programmes with institutions of national and international repute for all round development of students.\n
+• Organizing National and International seminars and symposium for exchange of innovation, technology and information.\n
+• Expanding curricula to cater to demands of higher studies in internationally acclaimed institutes.\n
+• Preparing students for promoting self-employment.\n
+• Develop the department as a center of excellence in the field of VLSI and communication technology by promoting research, consultancy and innovation.\n"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                >
+                <Button
+                    android:id="@+id/btnETC1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimaryDark"
+                    android:drawableTop="@drawable/faculties"
+                    android:layout_gravity="center"
+                    android:textColor="#FFFFFF"
+                    android:padding="10dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"
+                    android:text="Faculties"
+                    />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:id="@+id/btnETC2"
+                    android:background="@color/colorPrimaryDark"
+                    android:textColor="#FFFFFF"
+                    android:padding="10dp"
+                    android:drawableTop="@drawable/question"
+                    android:text="Question"
+
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+                <Button
+                    android:id="@+id/btnETC3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimaryDark"
+                    android:drawableTop="@drawable/note"
+                    android:text="Notes"
+                    android:layout_gravity="right"
+                    android:textColor="#FFFFFF"
+                    android:padding="10dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true" />
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:background="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</android.support.design.widget.CoordinatorLayout>
+
+
